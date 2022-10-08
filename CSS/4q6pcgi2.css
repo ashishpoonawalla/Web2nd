@@ -1,0 +1,603 @@
+.UIErrorFlag {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; Z-INDEX: 2; BACKGROUND: url(/rsrc.php/z2LAC/hash/6t48ah0i.gif) no-repeat left top; PADDING-BOTTOM: 0px; WIDTH: 200px; PADDING-TOP: 0px; POSITION: absolute; TOP: 2px
+}
+.UIHelpFlag_Block {
+	BACKGROUND: url(/rsrc.php/z1OJ6/hash/c95nncek.gif) no-repeat left top; MARGIN: 0px 0px 20px -11px; WIDTH: 261px; POSITION: relative
+}
+.UIHelpFlag_Close {
+	RIGHT: 6px; BACKGROUND: url(/rsrc.php/z6HVN/hash/2ovlrtko.gif) no-repeat center center; WIDTH: 15px; POSITION: absolute; TOP: 6px; HEIGHT: 16px
+}
+.UIHelpFlag_Close:hover {
+	BACKGROUND-COLOR: #f9efb3
+}
+.UIHelpFlag_Block .UIHelpFlag_Inner {
+	PADDING-RIGHT: 12px; DISPLAY: block; PADDING-LEFT: 10px; PADDING-BOTTOM: 12px; MARGIN-LEFT: 11px; COLOR: #333; PADDING-TOP: 8px; BORDER-BOTTOM: #e2c822 1px solid; BACKGROUND-COLOR: #fff9d7
+}
+.UIHelpFlag_Title {
+	DISPLAY: block; FONT-WEIGHT: bold; MARGIN: 0px 0px 6px
+}
+.UIErrorFlag_MultiField {
+	TOP: 10px
+}
+.UIErrorFlag .UIErrorFlag_Inner {
+	PADDING-RIGHT: 7px; DISPLAY: block; PADDING-LEFT: 9px; PADDING-BOTTOM: 3px; COLOR: #333; PADDING-TOP: 4px; BORDER-BOTTOM: #eb8266 1px solid; BACKGROUND-COLOR: #ffebe8
+}
+.field_container {
+	PADDING-RIGHT: 1px; DISPLAY: inline-block; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; WIDTH: auto; PADDING-TOP: 1px; POSITION: relative
+}
+.ie7 .field_container {
+	DISPLAY: inline
+}
+.ie6 .field_container {
+	DISPLAY: inline
+}
+.error_field {
+	BACKGROUND: #dd3c10
+}
+.error_field INPUT.inputtext {
+	BORDER-LEFT-COLOR: #dd3c10; BORDER-BOTTOM-COLOR: #dd3c10; BORDER-TOP-COLOR: #dd3c10; BORDER-RIGHT-COLOR: #dd3c10
+}
+.error_field INPUT.inputpassword {
+	BORDER-LEFT-COLOR: #dd3c10; BORDER-BOTTOM-COLOR: #dd3c10; BORDER-TOP-COLOR: #dd3c10; BORDER-RIGHT-COLOR: #dd3c10
+}
+.error_field #captcha_response {
+	BORDER-LEFT-COLOR: #dd3c10; BORDER-BOTTOM-COLOR: #dd3c10; BORDER-TOP-COLOR: #dd3c10; BORDER-RIGHT-COLOR: #dd3c10
+}
+.error_field INPUT:unknown {
+	outline: 0
+}
+.error_field SELECT:unknown {
+	outline: 0
+}
+.error_field INPUT#captcha_response:unknown {
+	outline: 0
+}
+.language .banner_wrapper {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/rsrc.php/zEFPE/hash/8jzdslf2.gif) #edeff4 repeat-x left bottom; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 30px; PADDING-TOP: 56px
+}
+.UIPage_LoggedOut .language_container .banner_wrapper {
+	MARGIN-TOP: -85px; PADDING-TOP: 114px
+}
+.language .banner {
+	MARGIN: 0px auto; WIDTH: 736px
+}
+.language .content {
+	MARGIN: 0px auto; WIDTH: 736px
+}
+.language .header {
+	MARGIN-BOTTOM: 20px
+}
+.language .banner H1 {
+	FONT-SIZE: 19px; MARGIN-BOTTOM: 5px
+}
+.language .banner H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; MARGIN: 0px; COLOR: #666; LINE-HEIGHT: 1.4em
+}
+.language #language_container {
+	BACKGROUND: url(/rsrc.php/z9GJF/hash/3rj3sq55.gif) no-repeat center 50%
+}
+.dialog_body .language #language_container {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.welcome_useragent {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; PADDING-BOTTOM: 20px; MARGIN: 0px auto; WIDTH: 964px; PADDING-TOP: 20px; POSITION: relative
+}
+.welcome_useragent .language #language_container {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.welcome_useragent .language UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.welcome_useragent .language LI {
+	PADDING-RIGHT: 11px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; DIRECTION: ltr; PADDING-TOP: 0px
+}
+.welcome_useragent .language LI SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 10px; PADDING-TOP: 0px; FONT-FAMILY: "lucida grande",tahoma,verdana,arial,sans-serif
+}
+.linear_language UL {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.linear_language LI {
+	PADDING-RIGHT: 11px; DISPLAY: inline; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; DIRECTION: ltr; PADDING-TOP: 10px
+}
+.linear_language LI SPAN {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 18px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 10px; PADDING-TOP: 0px; FONT-FAMILY: "lucida grande",tahoma,verdana,arial,sans-serif
+}
+.language TABLE.locale_selector {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; WIDTH: 100%; BORDER-RIGHT-WIDTH: 0px
+}
+.dialog_body .language TABLE.locale_selector {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 5px; PADDING-LEFT: 5px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 5px; WIDTH: 100%; PADDING-TOP: 5px; BORDER-RIGHT-WIDTH: 0px
+}
+.language TABLE.locale_selector TD {
+	VERTICAL-ALIGN: top; WIDTH: 28%
+}
+.language TABLE.locale_selector TD.last_col {
+	WIDTH: 16%
+}
+.language TABLE.locale_selector UL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.language TABLE.locale_selector LI {
+	FONT-SIZE: 12px; PADDING-BOTTOM: 4px
+}
+.language TABLE.locale_selector SPAN.current {
+	FONT-WEIGHT: bold; COLOR: #203360
+}
+.dialog_body .language TABLE.locale_selector SPAN.current {
+	FONT-WEIGHT: bold; COLOR: #333
+}
+.language TABLE.locale_selector SPAN.highlight {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 1px; MARGIN-LEFT: -3px; PADDING-TOP: 1px; BACKGROUND-COLOR: #fff8cc
+}
+.language TABLE.locale_selector SPAN.beta {
+	FONT-SIZE: 9px; COLOR: #808080
+}
+.language #address_book_login_widget {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 0px; PADDING-TOP: 0px
+}
+.language TABLE.editor {
+	MARGIN-BOTTOM: 5px
+}
+.language #new_ff .contact_importer_widget #disclaimer {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 25px; FONT-SIZE: 10px; BACKGROUND: url(/rsrc.php/zB33V/hash/1qehpvvq.gif) no-repeat left top; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 200px; COLOR: #777; PADDING-TOP: 0px
+}
+.simple_registration_container {
+	PADDING-BOTTOM: 30px; MARGIN: 0px auto; WIDTH: 400px
+}
+#main_container .UIWindowShade {
+	PADDING-TOP: 20px
+}
+#main_container {
+	MARGIN: 0px auto 30px; WIDTH: 600px
+}
+#reg_form_box {
+	PADDING-LEFT: 30px
+}
+#reg_form_box #extra_selects_hack {
+	DISPLAY: none
+}
+#main_container .UISimpleMessage_Container {
+	PADDING-RIGHT: 30px; PADDING-LEFT: 30px; PADDING-BOTTOM: 30px; PADDING-TOP: 30px
+}
+#main_container #error {
+	MARGIN-TOP: 20px
+}
+#main_container .terms_footer {
+	MARGIN: 0px 0px 40px 2px; PADDING-TOP: 2px
+}
+.registration #nonfooter .UIFullPage_Container {
+	PADDING-TOP: 0px
+}
+.registration .captcha_input_wrapper {
+	
+}
+.registration #reg_box .label {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; COLOR: #666; PADDING-TOP: 6px
+}
+.registration #reg_box .inputtext {
+	BORDER-LEFT-COLOR: #bdc7d8; BORDER-BOTTOM-COLOR: #bdc7d8; MARGIN: 0px; BORDER-TOP-COLOR: #bdc7d8; BORDER-RIGHT-COLOR: #bdc7d8
+}
+.registration #reg_box .inputpassword {
+	BORDER-LEFT-COLOR: #bdc7d8; BORDER-BOTTOM-COLOR: #bdc7d8; MARGIN: 0px; BORDER-TOP-COLOR: #bdc7d8; BORDER-RIGHT-COLOR: #bdc7d8
+}
+.registration #reg_form_box .reg_btn {
+	MARGIN: 1px 0px 0px 102px
+}
+.registration #reg_captcha {
+	MARGIN: 0px 0px 0px 22px
+}
+.registration #captcha_buttons {
+	CLEAR: left; MARGIN-LEFT: 24px
+}
+.registration #reg_captcha H2 {
+	COLOR: #222
+}
+.registration #captcha .captcha_input {
+	POSITION: relative
+}
+.registration #captcha .captcha_input INPUT {
+	FLOAT: none; MARGIN: 0px
+}
+.registration #captcha .captcha_input #captcha_response {
+	FLOAT: none; MARGIN: 0px
+}
+.registration #captcha_response {
+	MARGIN-LEFT: 0px
+}
+.registration #reg_box SELECT {
+	MARGIN: 1px 0px
+}
+.registration #reg_box .error_field #birthday_month {
+	MARGIN-LEFT: 1px
+}
+.registration #reg_box .error_field #birthday_year {
+	MARGIN-RIGHT: 1px
+}
+.registration #reg_box .error_field #sex {
+	MARGIN: 1px
+}
+.registration P.legal_tos {
+	CLEAR: left
+}
+.registration #reg_captcha #captcha DIV.captcha_input {
+	DISPLAY: inline-block; OVERFLOW: visible
+}
+.registration #reg_captcha #captcha DIV.captcha_input INPUT {
+	WIDTH: auto
+}
+.registration #reg_captcha LABEL {
+	MARGIN-TOP: 3px
+}
+.registration .field_container {
+	MARGIN: 2px 0px 1px
+}
+.registration #reg_captcha .field_container {
+	FLOAT: left
+}
+.registration #reg_captcha LABEL {
+	FLOAT: left
+}
+.confirmation_box .UIRoundedTransparentBox_Inner {
+	MARGIN-TOP: 60px; DISPLAY: block
+}
+#age_restriction_error {
+	MARGIN-TOP: 40px
+}
+.registration #reg_box .error_field INPUT.inputtext {
+	BORDER-LEFT-COLOR: #dd3c10; BORDER-BOTTOM-COLOR: #dd3c10; BORDER-TOP-COLOR: #dd3c10; BORDER-RIGHT-COLOR: #dd3c10
+}
+.registration #reg_box .error_field INPUT.inputpassword {
+	BORDER-LEFT-COLOR: #dd3c10; BORDER-BOTTOM-COLOR: #dd3c10; BORDER-TOP-COLOR: #dd3c10; BORDER-RIGHT-COLOR: #dd3c10
+}
+#reg_ads_msg {
+	MARGIN-TOP: 10px; FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666; TEXT-ALIGN: center
+}
+#reg_pages_msg {
+	BORDER-TOP: #a0a9c0 1px solid; MARGIN-TOP: 10px; FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666; PADDING-TOP: 10px; TEXT-ALIGN: center
+}
+.registration #reg_pages_msg {
+	MARGIN-TOP: 20px; BORDER-TOP-COLOR: #ccc
+}
+.registration .cancel_button_image {
+	FLOAT: left; BACKGROUND-IMAGE: url(/rsrc.php/zDW9O/hash/8fu2r3gs.png); MARGIN: 6px 0px 0px; WIDTH: 12px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 17px
+}
+.registration #cancel_button {
+	BORDER-RIGHT: transparent 0px solid; BORDER-TOP: transparent 0px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: left; MARGIN: 6px 0px 0px; BORDER-LEFT: transparent 0px solid; WIDTH: 75px; COLOR: #3b5998; LINE-HEIGHT: 14px; BORDER-BOTTOM: transparent 0px solid
+}
+.async_status {
+	MARGIN-TOP: 7px; FLOAT: left; MARGIN-LEFT: 10px; WIDTH: 50px
+}
+.simple_registration_container .tos_container {
+	MARGIN-TOP: 12px
+}
+.registration .tos_container {
+	MARGIN-LEFT: 22px
+}
+.WelcomePage_Container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: url(/rsrc.php/z2FYF/hash/2thrijiy.jpg) repeat-x center bottom; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.WelcomePage_MainSell {
+	BACKGROUND: url(/rsrc.php/z9380/hash/e51fchjj.jpg) no-repeat center bottom; MARGIN: 0px; PADDING-TOP: 36px
+}
+.WelcomePage_MainSellCenter {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 940px; PADDING-TOP: 0px; POSITION: relative
+}
+.WelcomePage_Warnings {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 30px; PADDING-TOP: 0px
+}
+.WelcomePage_MainSellLeft {
+	FLOAT: left; PADDING-BOTTOM: 20px; WIDTH: 536px
+}
+.WelcomePage_MainSellRight {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; WIDTH: 396px; PADDING-TOP: 0px
+}
+.WelcomePage_WhyJoin {
+	FONT-SIZE: 20px; MARGIN: 20px auto 0px; WIDTH: 918px; COLOR: #203360
+}
+.Carousel_Testimonial {
+	WIDTH: 400px; COLOR: #203360
+}
+.Carousel_Title {
+	FONT-WEIGHT: bold! important; FONT-SIZE: 20px! important; WORD-SPACING: -1px; COLOR: #203360; LINE-HEIGHT: 29px
+}
+.Carousel_Title_Medium {
+	MARGIN-TOP: 5px; FONT-SIZE: 18px
+}
+.Carousel_TestimonialSource {
+	FONT-SIZE: 10px; FONT-STYLE: italic
+}
+.Carousel_TestimonialQuote {
+	MARGIN-TOP: 20px; FONT-SIZE: 17px; COLOR: #333
+}
+.WelcomePage_FriendField {
+	FONT-SIZE: 20px
+}
+.Carousel_FriendFormTitle {
+	MARGIN-TOP: 30px; FONT-SIZE: 15px
+}
+.Carousel_FriendFormDescription {
+	MARGIN-TOP: 7px; FONT-SIZE: 11px; MARGIN-BOTTOM: 5px
+}
+.WelcomePage_FriendForm #address_book_login_widget {
+	MARGIN-TOP: 5px
+}
+.WelcomePage_FriendForm .disclaimer {
+	COLOR: #555; PADDING-TOP: 5px
+}
+.ABTest_RegSwap .WelcomePage_MainSellLeft {
+	FLOAT: right; WIDTH: 463px
+}
+.ABTest_RegSwap .WelcomePage_MainSellRight {
+	FLOAT: left; MARGIN-LEFT: 10px
+}
+.UIFeaturette_Container {
+	PADDING-TOP: 20px
+}
+.UIFeaturette_Row {
+	MARGIN: 0px auto; WIDTH: 918px
+}
+.UIFeaturette_Item {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px; WIDTH: 222px; MARGIN-RIGHT: 10px; PADDING-TOP: 0px
+}
+.UIFeaturette_Image {
+	BACKGROUND-IMAGE: url(/rsrc.php/z8N1X/hash/bvap1iiv.png); HEIGHT: 131px
+}
+.UIFeaturette_Image_Photos {
+	BACKGROUND-POSITION: 0px 0px
+}
+.UIFeaturette_Image_Personal {
+	BACKGROUND-POSITION: 222px 0px
+}
+.UIFeaturette_Image_Million {
+	BACKGROUND-POSITION: 0px 131px
+}
+.UIFeaturette_Image_Reconnect {
+	BACKGROUND-POSITION: 222px 131px
+}
+.UIFeaturette_ItemLast {
+	MARGIN-RIGHT: 0px
+}
+.UIFeaturette_Label {
+	MARGIN-TOP: 16px; FONT-SIZE: 13px; COLOR: #333; HEIGHT: 100px
+}
+.UIFeaturette_Label_Title {
+	FONT-WEIGHT: bold; MARGIN-BOTTOM: 10px
+}
+.WelcomePage_MainMessage {
+	PADDING-RIGHT: 60px; FONT-WEIGHT: bold! important; FONT-SIZE: 20px! important; MARGIN: 1px 0px 0px 6px; WORD-SPACING: -1px; COLOR: #203360; LINE-HEIGHT: 29px
+}
+.WelcomePage_VoteGraphic .WelcomePage_MainMap {
+	MARGIN-TOP: 28px; VISIBILITY: hidden
+}
+.WelcomePage_VoteGraphicPlaced {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; LEFT: -40px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; POSITION: absolute; TOP: 36px
+}
+.WelcomePage_VoteGraphicEnglishContainer {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 940px; PADDING-TOP: 0px; POSITION: relative
+}
+.WelcomePage_VoteGraphicEnglishPlaced {
+	BACKGROUND: url(/rsrc.php/z9Y0L/hash/6tpbhet2.png) no-repeat left top; LEFT: -40px; WIDTH: 507px; POSITION: absolute; TOP: 36px; HEIGHT: 42px
+}
+.WelcomePage_VoteGraphicEnglish .WelcomePage_VoteGraphicPlaced {
+	TOP: 78px
+}
+.WelcomePage_VoteGraphicPlaced A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.WelcomePage_VoteGraphicPlaced A:hover {
+	TEXT-DECORATION: none
+}
+.WelcomePage_VoteGraphicPlaced_EN {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(/rsrc.php/z63E8/hash/douc3919.png) no-repeat left top; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 507px; CURSOR: pointer; PADDING-TOP: 0px; HEIGHT: 222px
+}
+.WelcomePage_VoteGraphicPlaced_ES {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/rsrc.php/z2GT8/hash/6awdr5ls.png", sizingMethod="scale"); PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 533px; PADDING-TOP: 0px; HEIGHT: 264px
+}
+.WelcomePage_ElectionContainer {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; Z-INDEX: 1; PADDING-BOTTOM: 0px; MARGIN: 0px auto; WIDTH: 940px; PADDING-TOP: 0px; POSITION: relative
+}
+.WelcomePage_MainMap {
+	MARGIN-TOP: 20px; BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/rsrc.php/zC1V1/hash/dxeme6nh.png", sizingMethod="scale"); MARGIN-LEFT: -11px; WIDTH: 537px; HEIGHT: 195px
+}
+.WelcomePage_SimpleReg {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 10px
+}
+.WelcomePage_SignUpSection {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 388px; PADDING-TOP: 0px
+}
+.WelcomePage_SignUpMessage {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.WelcomePage_SignUpHeadline {
+	FONT-WEIGHT: bold! important; FONT-SIZE: 20px! important; WORD-SPACING: -1px; COLOR: #203360; LINE-HEIGHT: 29px
+}
+.WelcomePage_SignUpSubheadline {
+	FONT-SIZE: 20px! important; WORD-SPACING: -1px; COLOR: #203360; LINE-HEIGHT: 29px; PADDING-TOP: 1px
+}
+.WelcomePage_SignUpForm {
+	PADDING-TOP: 21px
+}
+.WelcomePage_SignUpText {
+	FONT-SIZE: 13px! important; PADDING-BOTTOM: 5px; COLOR: #1d2a5b
+}
+.WelcomePage_SignUpName .inputtext {
+	FONT-SIZE: 27px; BORDER-LEFT-COLOR: #1d2a5b; BORDER-BOTTOM-COLOR: #1d2a5b; MARGIN-LEFT: 0px; WIDTH: 312px; BORDER-TOP-COLOR: #1d2a5b; BORDER-RIGHT-COLOR: #1d2a5b
+}
+.WelcomePage_SignUpNameRight {
+	PADDING-LEFT: 10px
+}
+.WelcomePage_SignUpName #firstname {
+	WIDTH: 150px
+}
+.WelcomePage_SignUpName #lastname {
+	WIDTH: 150px
+}
+.WelcomePage_SignUpButton {
+	PADDING-TOP: 18px
+}
+.WelcomePage_SignUpStep2 {
+	LEFT: 650px; WIDTH: 396px; POSITION: absolute
+}
+.WelcomePage_SignUpStep2 .WelcomePage_SignUpMessage {
+	PADDING-BOTTOM: 20px
+}
+.WelcomePage_SignUpStep2 .reg_btn {
+	PADDING-TOP: 10px
+}
+.WelcomePage_SignUpStep3 {
+	LEFT: 650px; WIDTH: 396px; POSITION: absolute
+}
+.WelcomePage_SignUpStep3 .WelcomePage_SignUpMessage {
+	PADDING-BOTTOM: 10px
+}
+.WelcomePage_SignUpStep3 #captcha .captcha_challenge IMG {
+	BORDER-RIGHT: #1d2a5b 1px solid; BORDER-TOP: #1d2a5b 1px solid; BORDER-LEFT: #1d2a5b 1px solid; BORDER-BOTTOM: #1d2a5b 1px solid
+}
+.WelcomePage_SignUpStep3 #captcha .captcha_input INPUT {
+	BORDER-RIGHT: #1d2a5b 1px solid; BORDER-TOP: #1d2a5b 1px solid; BORDER-LEFT: #1d2a5b 1px solid; DIRECTION: ltr; BORDER-BOTTOM: #1d2a5b 1px solid
+}
+.WelcomePage_SignUpStep3 #captcha .captcha_input {
+	PADDING-TOP: 10px
+}
+.WelcomePage_SignUpStep3 #captcha {
+	PADDING-BOTTOM: 15px
+}
+.WelcomePage_SignUpStep3 #captcha #recaptcha_image {
+	MARGIN-TOP: 5px
+}
+.WelcomePage_SignUpStep3 .captcha_optout {
+	DISPLAY: none
+}
+.WelcomePage_Terms {
+	WIDTH: 300px; PADDING-TOP: 15px
+}
+.WelcomePage .editor TD.label {
+	FONT-WEIGHT: normal! important
+}
+.WelcomePage .captcha_input LABEL {
+	FONT-WEIGHT: normal! important
+}
+.captcha_input LABEL {
+	MARGIN: 0px 0px 0px 1px; WIDTH: 90px; COLOR: #333
+}
+.captcha_input INPUT {
+	DIRECTION: ltr
+}
+#reg_form_box .editor {
+	MARGIN: 0px 0px 7px
+}
+#reg_box {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+#reg_box .label {
+	PADDING-RIGHT: 3px; FONT-WEIGHT: bold; WIDTH: 90px; COLOR: #1d2a5b; TEXT-ALIGN: right
+}
+#reg_box .inputtext {
+	MARGIN-TOP: 2px; BORDER-LEFT-COLOR: #96a6c5; BORDER-BOTTOM-COLOR: #96a6c5; WIDTH: 206px; BORDER-TOP-COLOR: #96a6c5; BORDER-RIGHT-COLOR: #96a6c5
+}
+#reg_box .inputpassword {
+	MARGIN-TOP: 2px; BORDER-LEFT-COLOR: #96a6c5; BORDER-BOTTOM-COLOR: #96a6c5; WIDTH: 206px; BORDER-TOP-COLOR: #96a6c5; BORDER-RIGHT-COLOR: #96a6c5
+}
+#reg_box SELECT {
+	MARGIN: 2px 0px 0px
+}
+.ff2 #reg_box SELECT {
+	BORDER-LEFT-COLOR: #96a6c5; BORDER-BOTTOM-COLOR: #96a6c5; BORDER-TOP-COLOR: #96a6c5; BORDER-RIGHT-COLOR: #96a6c5
+}
+.ff3 #reg_box SELECT {
+	BORDER-LEFT-COLOR: #96a6c5; BORDER-BOTTOM-COLOR: #96a6c5; BORDER-TOP-COLOR: #96a6c5; BORDER-RIGHT-COLOR: #96a6c5
+}
+#reg_box #birthday_warning {
+	FONT-SIZE: 9px; MARGIN-LEFT: 1px
+}
+#reg_progress {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 13px! important; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-ALIGN: center
+}
+#reg_progress IMG {
+	MARGIN-RIGHT: 15px
+}
+#reg_progress #progress_wrap {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 80px; TEXT-ALIGN: center
+}
+#reg_progress .popup_retry {
+	FONT-WEIGHT: normal; MARGIN: auto; WIDTH: 200px; TEXT-ALIGN: center
+}
+#terms {
+	MARGIN: 0px 5px 0px 0px
+}
+#reg_form_box .reg_terms_box {
+	MARGIN-LEFT: 95px; PADDING-TOP: 15px
+}
+#openid_buttons_box {
+	BORDER-RIGHT: #e2c822 1px solid; PADDING-RIGHT: 10px; BORDER-TOP: #e2c822 1px solid; PADDING-LEFT: 10px; BACKGROUND: #fff9d7; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 10px; BORDER-LEFT: #e2c822 1px solid; PADDING-TOP: 10px; BORDER-BOTTOM: #e2c822 1px solid
+}
+SELECT#openid_buttons_box {
+	FONT-SIZE: 11px
+}
+P.legal_tos {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 9px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 10px; COLOR: #555; PADDING-TOP: 0px
+}
+.option_field {
+	MARGIN-BOTTOM: 10px
+}
+.option_field LABEL {
+	FONT-WEIGHT: normal! important
+}
+#captcha_whatsthis {
+	DISPLAY: none
+}
+#captcha_response {
+	BORDER-RIGHT: #bdc7d8 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #bdc7d8 1px solid; PADDING-LEFT: 3px; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; MARGIN-LEFT: 10px; BORDER-LEFT: #bdc7d8 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #bdc7d8 1px solid; FONT-FAMILY: "lucida grande", tahoma, verdana, arial, sans-serif
+}
+#reg_form_box .reg_btn {
+	MARGIN: 0px 0px 0px 95px
+}
+#reg_form_box #cancel_button {
+	FLOAT: left
+}
+#reg_error {
+	BORDER-RIGHT: #dd3c10 1px solid; BORDER-TOP: #dd3c10 1px solid; BACKGROUND: #ffebe8; MARGIN: 10px 0px 0px; OVERFLOW: hidden; BORDER-LEFT: #dd3c10 1px solid; LINE-HEIGHT: 15px; BORDER-BOTTOM: #dd3c10 1px solid; HEIGHT: 0px; TEXT-ALIGN: center
+}
+#captcha_error {
+	BORDER-RIGHT: #dd3c10 1px solid; BORDER-TOP: #dd3c10 1px solid; BACKGROUND: #ffebe8; MARGIN: 10px 0px 0px; OVERFLOW: hidden; BORDER-LEFT: #dd3c10 1px solid; LINE-HEIGHT: 15px; BORDER-BOTTOM: #dd3c10 1px solid; HEIGHT: 0px; TEXT-ALIGN: center
+}
+#reg_error_inner {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 7px; PADDING-TOP: 7px
+}
+#reg_captcha {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; LINE-HEIGHT: 16px; PADDING-TOP: 10px
+}
+#reg_captcha H2 {
+	PADDING-BOTTOM: 3px; COLOR: #1d2a5b
+}
+#reg_captcha #captcha DIV.captcha_input {
+	MARGIN: 5px 0px 7px; OVERFLOW: hidden
+}
+#reg_captcha #captcha_buttons {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 5px 0px 0px; OVERFLOW: hidden; PADDING-TOP: 10px; TEXT-ALIGN: left
+}
+#captcha_buttons .gridCol {
+	FLOAT: left; MARGIN: 0px; OVERFLOW: hidden
+}
+#captcha_buttons #A_btn_sign_up {
+	WIDTH: 160px
+}
+#captcha_buttons #back_button {
+	WIDTH: 101px
+}
+ HTML TABLE.editor SELECT {
+	MARGIN-LEFT: 1px
+}
+#reg_captcha #cancel_button {
+	BORDER-RIGHT: transparent 0px solid; BORDER-TOP: transparent 0px solid; FONT-WEIGHT: bold; FONT-SIZE: 12px; FLOAT: left; MARGIN: 6px 0px 0px; BORDER-LEFT: transparent 0px solid; WIDTH: 75px; COLOR: #3b5998; LINE-HEIGHT: 14px; BORDER-BOTTOM: transparent 0px solid
+}
+#reg_captcha .cancel_button_image {
+	FLOAT: left; BACKGROUND-IMAGE: url(/rsrc.php/zDW9O/hash/8fu2r3gs.png); MARGIN: 6px 0px 0px; WIDTH: 12px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 17px
+}
+.ie6 #reg_captcha .cancel_button_image {
+	BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/images/filter_show_ltr.png", sizingMethod="crop")
+}
+#bootloader_css_5sjy0m2fix0kowgg_pkg_css {
+	HEIGHT: 42px
+}

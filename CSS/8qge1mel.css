@@ -1,0 +1,111 @@
+.UINUXFieldSet_Box {
+	FLOAT: left; MARGIN: 0px 0px 22px; WIDTH: 940px
+}
+#nux_todos {
+	WIDTH: 670px
+}
+.UINUXFieldSet_Corner {
+	BACKGROUND: url(/rsrc.php/z3CH6/hash/dwf1zps2.png) no-repeat left top
+}
+.UINUXFieldSet_Title {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; LEFT: 0px; PADDING-BOTTOM: 0px; WIDTH: 900px; PADDING-TOP: 0px; POSITION: absolute; TOP: 0px
+}
+.UINUXFieldSet_TR {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: right 10px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 10px; POSITION: relative
+}
+.UINUXFieldSet_BR {
+	BACKGROUND-POSITION: right bottom; MARGIN-TOP: 14px; DISPLAY: block
+}
+.UINUXFieldSet_BL {
+	PADDING-RIGHT: 0px; BACKGROUND-POSITION: left bottom; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; MARGIN-RIGHT: 5px; PADDING-TOP: 0px
+}
+.UINuxFieldSet_Content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 4px
+}
+#nux_todos .UINuxFieldSet_Content {
+	PADDING-RIGHT: 40px; PADDING-LEFT: 104px; PADDING-BOTTOM: 96px; PADDING-TOP: 80px
+}
+.UINUXFieldSet_Title .home_welcome {
+	DISPLAY: inline! important; BACKGROUND: #fff; MARGIN: 0px; WIDTH: auto
+}
+.UINUXFieldSet_Title .home_welcome H1 {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.UINUXFieldSet_Title .home_welcome #welcome_requests {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.UINUXToDo {
+	MARGIN: 0px 0px 34px; WIDTH: 430px
+}
+.UINUXToDo_Icon A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; BACKGROUND-IMAGE: url(/rsrc.php/z579K/hash/bzbyd6pu.png); PADDING-BOTTOM: 0px; MARGIN: 0px 15px 0px 0px; OVERFLOW: hidden; WIDTH: 27px; PADDING-TOP: 30px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 0px
+}
+.UINUXToDo_Icon .UINUXToDo_ContactImporterTitle {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; BACKGROUND-IMAGE: url(/rsrc.php/z579K/hash/bzbyd6pu.png); PADDING-BOTTOM: 0px; MARGIN: 0px 15px 0px 0px; OVERFLOW: hidden; WIDTH: 27px; PADDING-TOP: 30px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 0px
+}
+.UINUXToDo_Icon A:hover {
+	TEXT-DECORATION: none
+}
+.UINUXToDo_PeopleYouKnow A {
+	BACKGROUND-POSITION: 0px 0px
+}
+.UINUXToDo_EditProfile A {
+	BACKGROUND-POSITION: 0px -35px
+}
+.UINUXToDo_Share A {
+	BACKGROUND-POSITION: 0px -71px
+}
+.UINUXToDo_Content {
+	DISPLAY: block; FLOAT: right; WIDTH: 388px
+}
+.UINUXToDo .UINUXToDo_ContactImporterYahoo SPAN {
+	BACKGROUND-IMAGE: url(/rsrc.php/z22AJ/hash/au2pgwwd.gif)
+}
+.UINUXToDo .UINUXToDo_ContactImporterWindowsLive SPAN {
+	BACKGROUND-IMAGE: url(/rsrc.php/z3WGI/hash/co2qbob0.gif)
+}
+.UINUXToDo .UINUXToDo_ContactImporterGmail SPAN {
+	BACKGROUND-IMAGE: url(/rsrc.php/z7JPI/hash/5ggnte8n.gif)
+}
+.UINUXToDo_Content {
+	DISPLAY: block; FLOAT: right; WIDTH: 388px
+}
+.UINUXToDo_Content A {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px
+}
+.UINUXToDo_Content SPAN.UINUXToDo_ContactImporterTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px
+}
+.UINUXToDo_Content SPAN.UINUXToDo_ContactImporterTitle {
+	COLOR: #333
+}
+.UINUXToDo_Content .UINUXToDo_Description {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 3px 0px 0px; PADDING-TOP: 0px
+}
+.UINUXToDo_Extra {
+	CLEAR: left; PADDING-RIGHT: 0px; PADDING-LEFT: 42px; PADDING-BOTTOM: 0px; PADDING-TOP: 8px
+}
+.welcome_banner .UINUXToDo {
+	CLEAR: none; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 5px; MARGIN: 0px 28px 8px; WIDTH: 254px; PADDING-TOP: 5px
+}
+.welcome_banner .UINUXToDo_Content {
+	WIDTH: 212px
+}
+.home_welcome {
+	MARGIN: -2px 0px 16px
+}
+.home_welcome H1 {
+	DISPLAY: inline; FONT-SIZE: 16px
+}
+.home_welcome #welcome_requests {
+	MARGIN-LEFT: 8px
+}
+#welcome_requests .request_link {
+	PADDING-LEFT: 3px
+}
+#welcome_requests .spritemap_icons {
+	VERTICAL-ALIGN: bottom
+}
+#bootloader_css_4x50muivxdogo0sw_pkg_css {
+	HEIGHT: 42px
+}

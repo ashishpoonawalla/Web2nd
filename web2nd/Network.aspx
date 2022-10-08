@@ -1,0 +1,11 @@
+<%@ Page Language="C#" MasterPageFile="~/web2nd/main.master" AutoEventWireup="true" CodeFile="Network.aspx.cs" Inherits="web2nd_Network" Title="Untitled Page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <div style="text-align: left">
+        &nbsp;<asp:UpdatePanel id="UpdatePanel1" runat="server">
+            <contenttemplate>
+<TABLE style="POSITION: static; BACKGROUND-COLOR: whitesmoke" cellSpacing=2 cellPadding=0 width=600 border=0><TBODY><TR><TD style="WIDTH: 100px"><asp:Button style="POSITION: static" id="Button3" onclick="Button2_Click" runat="server" Width="94px" Height="22px" Text="My Network" ForeColor="White" Font-Size="8pt" Font-Bold="True" BorderColor="DimGray" BorderWidth="0px" BackColor="OliveDrab"></asp:Button></TD><TD style="WIDTH: 100px"><asp:Button style="POSITION: static" id="Button2" onclick="Button1_Click" runat="server" Width="94px" Height="22px" Text="All Network" ForeColor="White" Font-Size="8pt" Font-Bold="True" BorderColor="DimGray" BorderWidth="0px" BackColor="OliveDrab"></asp:Button></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"><asp:Label style="POSITION: static" id="Label2" runat="server" Text="Label"></asp:Label></TD><TD style="WIDTH: 100px"><asp:TextBox style="POSITION: static" id="TextBox1" runat="server"></asp:TextBox></TD><TD style="WIDTH: 100px"><asp:ImageButton style="POSITION: static" id="ImageButton6" onclick="ImageButton1_Click" runat="server" ImageUrl="~/images/ToolSearch1.bmp"></asp:ImageButton></TD></TR><TR><TD colSpan=6><asp:Label style="POSITION: static" id="Label1" runat="server" Width="554px" Text="Label" ForeColor="#E0E0E0"></asp:Label></TD></TR><TR><TD colSpan=6><asp:ListBox style="POSITION: static" id="ListBox1" runat="server" Width="600px" Height="612px" ForeColor="DimGray" Font-Size="11pt" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged" AutoPostBack="True"></asp:ListBox><BR /><asp:SqlDataSource id="SqlDataSource1" runat="server"></asp:SqlDataSource> </TD></TR><TR><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD><TD style="WIDTH: 100px"></TD></TR></TBODY></TABLE>
+</contenttemplate>
+        </asp:UpdatePanel><br />
+    </div>
+</asp:Content>
+

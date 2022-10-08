@@ -1,0 +1,363 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mainL2.master.cs" Inherits="web2nd" %>
+<%@ Register Src="AdverTiseMenu1.ascx" TagName="AdverTiseMenu1" TagPrefix="uc2" %>
+<%@ Register Src="FBTool.ascx" TagName="FBTool" TagPrefix="uc4" %>
+<%@ Register Src="MainMenu.ascx" TagName="MainMenu" TagPrefix="uc1" %>
+<%@ Register
+    Assembly="AjaxControlToolkit"
+    Namespace="AjaxControlToolkit"
+    TagPrefix="ajaxToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+<script language="javascript" type="text/javascript">
+<!--
+
+function IMG1_onclick() {
+
+}
+
+// -->
+</script>
+    
+    <link href="../CSS/eh2vbogl.css" rel="stylesheet" type="text/css" />
+</head>
+<body background="../Background/a9.bmp">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true">
+</asp:ScriptManager>
+     
+     
+     
+       <div>
+         
+        
+        <table style="width: 100%; position: static" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center" colspan="3" style="height: 7px" valign="top">
+                    <div style="text-align: center">
+                        <uc1:MainMenu id="MainMenu1" runat="server">
+                        </uc1:MainMenu>&nbsp;</div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="3" valign="top">
+                    <table align="center" cellpadding="0" cellspacing="14" style="position: static; text-align: center;" width="907">
+                        <tr>
+                            <td align="left" rowspan="3" style="width: 54px; height: 366px;" valign="top">
+                                <asp:Panel ID="Panel1" runat="server" Height="60px" Style="position: static" Width="200px">
+                                    <table id="TABLE2" cellpadding="0" cellspacing="0" language="javascript" onclick="return TABLE2_onclick()"
+                                        style="position: static; vertical-align: top;" width="200">
+                                        <tr>
+                                            <td colspan="2">
+                                                <asp:Image ID="Image1" runat="server" Style="position: static" /></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="height: 16px">
+                                                <asp:Label ID="Label8" runat="server" ForeColor="White" Style="position: static"
+                                                    Text="."></asp:Label></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="height: 16px">
+                                                <asp:Label ID="Label11" runat="server" Font-Bold="True" Font-Size="10pt" Style="position: static"
+                                                    Width="199px"></asp:Label></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="height: 16px">
+                                                <asp:Label ID="Label7" runat="server" ForeColor="White" Style="position: static"
+                                                    Text="."></asp:Label></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="height: 16px">
+                                                <asp:LinkButton ID="LinkButton1" runat="server" Style="position: static" Width="181px">LinkButton</asp:LinkButton></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <asp:Label ID="Label10" runat="server" ForeColor="White" Style="position: static"
+                                                    Text="."></asp:Label></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="height: 19px">
+                                                <asp:LinkButton ID="LinkButton3" runat="server" Style="position: static" Width="202px">Suggest Friends</asp:LinkButton></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <asp:Label ID="Label9" runat="server" ForeColor="White" Style="position: static"
+                                                    Text="."></asp:Label></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="height: 19px">
+                                                &nbsp; &nbsp;
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <asp:Label ID="Label6" runat="server" ForeColor="White" Style="position: static"
+                                                    Text="." Width="122px"></asp:Label></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="height: 19px">
+                                                &nbsp; &nbsp;&nbsp;
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" colspan="2" style="height: 19px" valign="top">
+                                                <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
+                                                    SelectCommand="SELECT Login.id, Login.Email, Login.FullName, Login.Photo, Login.City, Login.Country, FList.S_Email, FList.R_Email FROM Login INNER JOIN FList ON Login.Email = FList.R_Email WHERE (FList.S_Email = @sml) AND (FList.R_Email <> @sml) ORDER BY Login.FullName">
+                                                    <SelectParameters>
+                                                        <asp:SessionParameter Name="sml" SessionField="FMail" />
+                                                    </SelectParameters>
+                                                </asp:SqlDataSource>
+                                                <table border="0" cellpadding="3" cellspacing="3" style="position: static; height: 12px;">
+                                                    <tr>
+                                                        <td align="right" bgcolor="lavender" colspan="2" style="width: 9px; height: 23px">
+                                                            <asp:LinkButton ID="LinkButton2" runat="server" Style="position: static" OnClick="LinkButton2_Click" Width="185px">Friends - See All</asp:LinkButton></td>
+                                                    </tr>
+                                                </table>
+                                                <asp:Panel ID="Panel2" runat="server" Height="260px" ScrollBars="Vertical" Style="position: static"
+                                                    Width="195px">
+                                                    <asp:DataList ID="DataList1" runat="server" DataKeyField="id" DataSourceID="SqlDataSource2"
+                                                        OnSelectedIndexChanged="DataList1_SelectedIndexChanged1" RepeatColumns="2" RepeatDirection="Horizontal"
+                                                        Width="172px">
+                                                        <ItemTemplate>
+                                                            <asp:ImageButton ID="ImageButton3" runat="server" AlternateText='<%# Eval("FullName") %>'
+                                                                CommandName="Select" Height="45px" ImageUrl='<%# Eval("Photo") %>' Width="45px" BorderColor="White" BorderStyle="Solid" BorderWidth="3px" /><br />
+                                                            <asp:Label ID="FullNameLabel" runat="server" Height="35px" Text='<%# Eval("FullName") %>' ForeColor="#404040"></asp:Label>
+                                                        </ItemTemplate>
+                                                    </asp:DataList></asp:Panel>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="height: 19px">
+                                                <asp:LinkButton ID="LinkButton5" runat="server" Style="position: static" Width="202px">Report / Block this person</asp:LinkButton></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <asp:Label ID="Label2" runat="server" ForeColor="White" Style="position: static"
+                                                    Text="."></asp:Label></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" style="height: 19px">
+                                                <asp:LinkButton ID="LinkButton4" runat="server" Style="position: static" Width="202px">Remove from friends list</asp:LinkButton></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                                <asp:Label ID="Label1" runat="server" ForeColor="White" Style="position: static"
+                                                    Text="."></asp:Label></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 100px; height: 19px">
+                                            </td>
+                                            <td style="width: 100px; height: 19px">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 100px">
+                                            </td>
+                                            <td style="width: 100px">
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 100px; height: 13px">
+                                            </td>
+                                            <td style="width: 100px; height: 13px">
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </asp:Panel>
+                            </td>
+                            <td align="left" rowspan="3" style="height: 366px;" valign="top" width="550">
+                                <table cellpadding="0" cellspacing="0" style="width: 100%; position: relative; left: 0px; top: 0px;" align="center" bgcolor="white">
+                                    <tr>
+                                        <td style="width: 100px; height: 6px;" valign="top">
+                                            <table border="0" cellspacing="2" style="width: 545px; position: static">
+                                                <tr>
+                                                    <td style="width: 100px; height: 24px;">
+                                                        <asp:Button ID="Button1" runat="server" BackColor="WhiteSmoke" BorderColor="DarkGray"       BorderWidth="1px" Font-Bold="True" ForeColor="DarkOliveGreen"                                                             Style="position: static" Text="Update" Width="65px" OnClick="Button1_Click" /></td>
+                                                    <td style="width: 100px; height: 24px;"><asp:Button ID="Button2" runat="server" BackColor="WhiteSmoke" BorderColor="DarkGray"       BorderWidth="1px" Font-Bold="True" ForeColor="DarkOliveGreen"                                                             Style="position: static" Text="Info" Width="65px" OnClick="Button2_Click1" /></td>
+                                                    <td style="width: 100px; height: 24px;"><asp:Button ID="Button3" runat="server" BackColor="WhiteSmoke" BorderColor="DarkGray"       BorderWidth="1px" Font-Bold="True" ForeColor="DarkOliveGreen"                                                             Style="position: static" Text="Photo" Width="65px" OnClick="Button3_Click1" /></td>
+                                                    <td style="width: 100px; height: 24px;"><asp:Button ID="Button7" runat="server" BackColor="WhiteSmoke" BorderColor="DarkGray"       BorderWidth="1px" Font-Bold="True" ForeColor="DarkOliveGreen"                                                             Style="position: static" Text="Friends" Width="65px" OnClick="Button7_Click" /></td>
+                                                    <td style="width: 100px; height: 24px;"><asp:Button ID="Button6" runat="server" BackColor="WhiteSmoke" BorderColor="DarkGray"       BorderWidth="1px" Font-Bold="True" ForeColor="DarkOliveGreen"                                                             Style="position: static" Text="Scrap" Width="65px" Visible="False" /></td>
+                                                    <td style="width: 100px; height: 24px;"><asp:Button ID="Button5" runat="server" BackColor="WhiteSmoke" BorderColor="DarkGray"       BorderWidth="1px" Font-Bold="True" ForeColor="DarkOliveGreen"                                                             Style="position: static" Text="Gifts" Width="65px" Visible="False" /></td>
+                                                    <td style="width: 100px; height: 24px;">
+                                                        &nbsp;
+                                                        </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 100px" valign="top">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 100px; height: 16px;" valign="top">
+                                            <asp:Label ID="Label4" runat="server" Style="position: static" Width="320px" BackColor="#FFC0C0" Font-Size="11pt" Visible="False"></asp:Label>
+                                            <asp:Label ID="Label3" runat="server" BackColor="#FFE0C0" Font-Size="11pt" Text="Label"
+                                                Width="93px" Visible="False"></asp:Label>
+                                            <asp:Label
+                                                ID="Label5" runat="server" Style="position: static" Text="Label" Width="123px" Visible="False"></asp:Label></td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td align="left" rowspan="3" style="width: 100px; height: 366px;" valign="top">
+                                <div style="text-align: left">
+                                    <table cellspacing="2" style="border-left: lavender thin solid; position: static"
+                                        width="162">
+                                        <tr>
+                                            <td style="width: 100px" valign="top">
+                                                <asp:SqlDataSource ID="SqlDataSource11" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
+                                                    SelectCommand="SELECT * FROM [Advertise1] WHERE ([Type] = @Type)">
+                                                    <SelectParameters>
+                                                        <asp:SessionParameter Name="Type" SessionField="advA" Type="String" />
+                                                    </SelectParameters>
+                                                </asp:SqlDataSource>
+                                                <asp:DataList ID="DataList11" runat="server" DataKeyField="ID" DataSourceID="SqlDataSource11"
+                                                    Font-Size="8pt" Style="position: static" Width="166px">
+                                                    <ItemTemplate>
+                                                        <table border="0" cellpadding="0" cellspacing="3" style="position: static; border-bottom: gainsboro 1px dotted;"
+                                                            width="150">
+                                                            <tr>
+                                                                <td colspan="2">
+                                                                    <br />
+                                                                    <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" NavigateUrl='<%# Eval("Link1") %>'
+                                                                        Style="position: static" Target="_blank" Text='<%# Eval("Title") %>' Width="186px"></asp:HyperLink></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" colspan="2" rowspan="2">
+                                                                    &nbsp;<asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/web2nd/image/ToopThumUp.bmp"
+                                                                        Style="position: static" />
+                                                                    &nbsp; &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="80px" ImageUrl='<%# Eval("Image1") %>'
+                                                                        Style="position: static" Width="110px" /></td>
+                                                            </tr>
+                                                            <tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2">
+                                                                    <br />
+                                                                    <asp:HyperLink ID="HyperLink2" runat="server" Font-Size="8pt" ForeColor="DimGray"
+                                                                        NavigateUrl='<%# Eval("Link1") %>' Style="position: static" Target="_blank" Text='<%# Eval("Message") %>'
+                                                                        Width="188px"></asp:HyperLink></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2" style="height: 7px">
+                                                                    <table border="0" cellpadding="0" cellspacing="1" style="position: static">
+                                                                        <tr>
+                                                                            <td style="width: 21px; height: 19px">
+                                                                            </td>
+                                                                            <td style="width: 100px; height: 19px">
+                                                                                <asp:HyperLink ID="HyperLink1" runat="server" Font-Size="8pt" ForeColor="#6666FF"
+                                                                                    NavigateUrl='<%# Eval("Link1") %>' Style="position: static" Visible="False" Width="129px">Like</asp:HyperLink></td>
+                                                                            <td style="width: 100px; height: 19px">
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </ItemTemplate>
+                                                </asp:DataList></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 100px" valign="top">
+                                                <asp:SqlDataSource ID="SqlDataSource21" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
+                                                    SelectCommand="SELECT * FROM [Advertise1] WHERE ([Type] = @Type)">
+                                                    <SelectParameters>
+                                                        <asp:SessionParameter Name="Type" SessionField="advB" Type="String" />
+                                                    </SelectParameters>
+                                                </asp:SqlDataSource>
+                                                <asp:DataList ID="DataList2" runat="server" DataKeyField="ID" DataSourceID="SqlDataSource21"
+                                                    Font-Size="8pt" Style="position: static" Width="166px">
+                                                    <ItemTemplate>
+                                                        <table border="0" cellpadding="0" cellspacing="3" style="position: static; border-bottom: gainsboro 1px dotted;"
+                                                            width="150">
+                                                            <tr>
+                                                                <td colspan="2">
+                                                                    <br />
+                                                                    <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" NavigateUrl='<%# Eval("Link1") %>'
+                                                                        Style="position: static" Target="_blank" Text='<%# Eval("Title") %>' Width="186px"></asp:HyperLink></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" colspan="2" rowspan="2">
+                                                                    &nbsp;<asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/web2nd/image/ToopThumUp.bmp"
+                                                                        Style="position: static" />
+                                                                    &nbsp; &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="80px" ImageUrl='<%# Eval("Image1") %>'
+                                                                        Style="position: static" Width="110px" /></td>
+                                                            </tr>
+                                                            <tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2">
+                                                                    <br />
+                                                                    <asp:HyperLink ID="HyperLink2" runat="server" Font-Size="8pt" ForeColor="DimGray"
+                                                                        NavigateUrl='<%# Eval("Link1") %>' Style="position: static" Target="_blank" Text='<%# Eval("Message") %>'
+                                                                        Width="188px"></asp:HyperLink></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2" style="height: 7px">
+                                                                    <table border="0" cellpadding="0" cellspacing="1" style="position: static">
+                                                                        <tr>
+                                                                            <td style="width: 21px; height: 19px">
+                                                                            </td>
+                                                                            <td style="width: 100px; height: 19px">
+                                                                                <asp:HyperLink ID="HyperLink1" runat="server" Font-Size="8pt" ForeColor="#6666FF"
+                                                                                    NavigateUrl='<%# Eval("Link1") %>' Style="position: static" Target="_blank" Visible="False"
+                                                                                    Width="129px">Like</asp:HyperLink></td>
+                                                                            <td style="width: 100px; height: 19px">
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </ItemTemplate>
+                                                </asp:DataList></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                        </tr>
+                    </table>
+                    </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="3" style="height: 21px" valign="top">
+                    </td>
+            </tr>
+        </table>
+           <br />
+           <br />
+           &nbsp;<uc4:FBTool ID="FBTool1" runat="server" />
+       
+     
+     
+     
+       </div>
+        
+        
+        
+         <!- ------------------------------------------ Always visible ---------------------------><div class="demoarea">
+             &nbsp;</div>
+        
+     
+      <!- ------------------------------------------ --------------------------->
+     
+        
+    </form>
+</body>
+</html>

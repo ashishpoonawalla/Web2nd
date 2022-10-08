@@ -1,0 +1,201 @@
+.list {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BACKGROUND: #f3f7ff; PADDING-BOTTOM: 4px; PADDING-TOP: 2px
+}
+.list H2 {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 5px; MARGIN: 0px; PADDING-TOP: 6px
+}
+.list P {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 5px; MARGIN: 2px 0px 0px; PADDING-TOP: 5px
+}
+.list .fguess {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 8px; BACKGROUND: #fff; PADDING-BOTTOM: 8px; MARGIN: 8px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 8px; BORDER-BOTTOM: #ccc 1px solid
+}
+.list .fguess IMG {
+	FLOAT: left; MARGIN-RIGHT: 8px
+}
+.list .fguess .fg_name {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+.list .fguess .fg_mutual {
+	MARGIN-TOP: 4px; DISPLAY: block
+}
+.list .fguess .fg_links {
+	MARGIN-TOP: 4px; DISPLAY: block
+}
+.list .fguess .fg_links .inactive {
+	COLOR: #666
+}
+.friend_grid .friend_grid_row {
+	MARGIN: 10px 0px 5px
+}
+.friend_grid .friend_grid_col {
+	FLOAT: left; MARGIN-LEFT: 10px; OVERFLOW: hidden; WIDTH: 174px
+}
+.friend_grid .friend_grid_col .fg_img {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 50px; PADDING-TOP: 0px
+}
+.friend_grid .friend_grid_col .fg_links {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; FLOAT: left; PADDING-BOTTOM: 0px; OVERFLOW: hidden; WIDTH: 97px; PADDING-TOP: 1px
+}
+.friend_grid .friend_grid_col .fg_links .fg_name {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; COLOR: #333
+}
+.friend_grid .friend_grid_col .fg_links .fg_action_view {
+	DISPLAY: none
+}
+.friend_grid .friend_grid_col .fg_links .fg_action_add .inactive {
+	COLOR: #666
+}
+.friend_grid .friend_grid_col .fg_action_hide {
+	FLOAT: right; MARGIN: 3px 2px 0px 0px; WIDTH: 12px; HEIGHT: 11px
+}
+.friend_grid .friend_grid_col .fg_action_hide H5 {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.friend_grid .friend_grid_col .fg_action_hide H5 A {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: url(/rsrc.php/zE5GI/hash/7pjbl6pb.png) no-repeat -869px -65px; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 11px; TEXT-INDENT: -5000px; PADDING-TOP: 0px; HEIGHT: 13px
+}
+.friend_grid .friend_grid_col .fg_action_hide H5 A:hover {
+	BACKGROUND-POSITION: -857px -65px; DISPLAY: block; BACKGROUND-COLOR: #3b5998; TEXT-DECORATION: none
+}
+.pymk_participants_not_expanded .pymk_participants_long {
+	DISPLAY: none
+}
+.pymk_participants_expanded .pymk_participants_short {
+	DISPLAY: none
+}
+.UITitledBox {
+	OVERFLOW: hidden
+}
+.UITitledBox_Top {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px solid
+}
+.ie6 .UITitledBox_Top {
+	ZOOM: 1
+}
+.UITitledBox_Title {
+	FONT-WEIGHT: bold; FLOAT: left; COLOR: #333
+}
+.UITitledBox_SubTitle {
+	FLOAT: right
+}
+DIV.UIHomeBox {
+	MARGIN-BOTTOM: 20px
+}
+.UIHomeBox .UITitledBox_Top {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 0px
+}
+.UIHomeBox .UITitledBox_Content {
+	MARGIN-TOP: 6px
+}
+.UIHomeBox_More {
+	FLOAT: right
+}
+.UIHomeBox_Loading {
+	DISPLAY: none; FLOAT: right
+}
+.UIHomeBox_Next {
+	PADDING-LEFT: 4px
+}
+.UIHomeBox_Previous {
+	PADDING-RIGHT: 4px
+}
+.UIHomeBox_Initial .UIHomeBox_Previous {
+	DISPLAY: none
+}
+.UIRequestBox_Request {
+	MARGIN-TOP: 6px; DISPLAY: block; OVERFLOW: hidden
+}
+.UIRequestBox_RequestFirst {
+	MARGIN-TOP: -1px
+}
+.UIRequestBox .request_link {
+	DISPLAY: block; PADDING-LEFT: 21px
+}
+.UIRequestBox IMG {
+	VERTICAL-ALIGN: bottom; POSITION: absolute
+}
+.UIRequestBox_Short .UIRequestBox_Request {
+	FLOAT: left; WIDTH: 125px
+}
+.UIRequestBox_Short .UIRequestBox_RequestOdd {
+	CLEAR: left
+}
+.UIRequestBox_Short .UIRequestBox_RequestSecond {
+	MARGIN-TOP: -1px
+}
+.UIRequestBox .sx_event {
+	MARGIN-TOP: -1px
+}
+.fbpage_edit_header {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; BACKGROUND: #fff; PADDING-BOTTOM: 0px; MARGIN: -7px 0px 19px; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 31px; BORDER-RIGHT-WIDTH: 0px
+}
+.pages_edit .fbpage_edit_header {
+	MARGIN: 0px
+}
+.icon_dock {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 300px; PADDING-TOP: 0px
+}
+.icon_dock .icon_dock_container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; Z-INDEX: 30; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 8px
+}
+.icon_dock .edit_link {
+	PADDING-RIGHT: 8px; DISPLAY: block; FONT-WEIGHT: bold; FLOAT: right; MARGIN: 0px; COLOR: #666; PADDING-TOP: 10px
+}
+.icon_dock A {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 5px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 8px
+}
+.edit_app_switcher {
+	MARGIN: 0px; PADDING-TOP: 6px
+}
+.edit_app_switcher .app_switcher_button .name {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.edit_app_switcher .app_switcher_menu {
+	WIDTH: 160px
+}
+.edit_app_switcher .app_switcher_menu .name {
+	WIDTH: 105px; TEXT-ALIGN: left
+}
+.edit_app_switcher .app_switcher_button .arrow {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 1px; PADDING-TOP: 2px
+}
+.fbpage_edit_header .left_header {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; FLOAT: left; PADDING-BOTTOM: 2px; OVERFLOW: hidden; WIDTH: 250px; PADDING-TOP: 7px; WHITE-SPACE: nowrap
+}
+.fbpage_edit_header .left_header_text {
+	PADDING-LEFT: 5px; POSITION: relative; TOP: -4px
+}
+.fbpage_edit_header DIV.left_header .edit_link {
+	PADDING-LEFT: 4px; FONT-WEIGHT: normal; COLOR: #ccc
+}
+.fbpage_edit_header DIV.left_header .edit_link A {
+	COLOR: #6d84b4
+}
+.pages_viewer_settings {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.pages_viewer_settings .profile_pic {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 100px; PADDING-TOP: 0px
+}
+.pages_viewer_settings .checkbox_table {
+	FONT-WEIGHT: normal; MARGIN: 10px 0px; COLOR: #000
+}
+.pages_viewer_settings .checkbox_table .checkbox {
+	VERTICAL-ALIGN: top
+}
+.pages_viewer_settings .checkbox_table LABEL {
+	FONT-WEIGHT: normal; COLOR: #000
+}
+.pages_viewer_settings .checkbox_table LABEL .fbpage_profile_viewer_settings_subtext {
+	FONT-SIZE: 9px; COLOR: #808080
+}
+.pages_viewer_settings .privacy_explanation {
+	FONT-SIZE: 9px; COLOR: #808080
+}
+.fan_status_inactive {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 3px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #666; LINE-HEIGHT: 18px; PADDING-TOP: 0px; BACKGROUND-COLOR: #fffccc
+}
+#bootloader_css_8nrefbbjcpkw8cks_pkg_css {
+	HEIGHT: 42px
+}

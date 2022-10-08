@@ -1,0 +1,342 @@
+BODY.ie6 {
+	HEIGHT: 100%
+}
+.use_scroll_wrapper #scroll_wrapper {
+	OVERFLOW: auto; WIDTH: 100%; POSITION: relative; HEIGHT: 100%
+}
+.inputbutton {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 2px; OVERFLOW: visible; PADDING-TOP: 2px
+}
+.inputsubmit {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px; PADDING-BOTTOM: 2px; OVERFLOW: visible; PADDING-TOP: 2px
+}
+#tabs {
+	MARGIN-TOP: 22px
+}
+#announce P {
+	WORD-WRAP: break-word
+}
+#suggest DIV {
+	CURSOR: hand
+}
+.fb_menu_dropdown {
+	WIDTH: 200px
+}
+.profile#group .related {
+	WORD-WRAP: break-word
+}
+#pagefooter LI {
+	WHITE-SPACE: nowrap
+}
+.profile .account_info {
+	MARGIN-LEFT: -231px; WIDTH: 388px; POSITION: relative
+}
+.obj_media_header .media_gray_bg {
+	POSITION: relative
+}
+.media_header .media_gray_bg {
+	POSITION: relative
+}
+.highlight {
+	LINE-HEIGHT: 17px
+}
+.inserted {
+	LINE-HEIGHT: 17px
+}
+.composer_fields LABEL {
+	PADDING-TOP: 7px
+}
+#compose_message .inputsubmit {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px
+}
+.message .photo .photo_thumb IMG {
+	WIDTH: 360px
+}
+.message .share_ext_photo .share_thumb IMG {
+	WIDTH: 360px
+}
+.inbox #megaboxx .subject_wrap .subject_text {
+	DISPLAY: inline-block
+}
+.dropdown-container {
+	MARGIN-LEFT: 1px
+}
+#goodFrame {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; FILTER: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0); BORDER-BOTTOM-WIDTH: 0px; POSITION: absolute; BORDER-RIGHT-WIDTH: 0px
+}
+.ubersearch .uber_bar #label_q {
+	
+}
+.ubersearch .uber_bar #n_dropdown {
+	MARGIN-TOP: 2px
+}
+.filters LEGEND {
+	CURSOR: hand
+}
+.ubersearch .filters FIELDSET LEGEND {
+	PADDING-BOTTOM: 4px; MARGIN: -5px -10px 0px -7px; WIDTH: 133px
+}
+.filters #label_c2 {
+	DISPLAY: block
+}
+.filters #label_c1 {
+	DISPLAY: block
+}
+.ubersearch .filters .checkbox {
+	PADDING-BOTTOM: 0px
+}
+.ubersearch .filters .checkbox INPUT {
+	MARGIN: 0px
+}
+.ubersearch .filters .checkbox LABEL {
+	MARGIN: 0px
+}
+.ubersearch #filters_sx LABEL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.ubersearch #filters_sx .filter_controls {
+	PADDING-BOTTOM: 2px
+}
+.mailbox .dropdown-container {
+	MARGIN-TOP: 1px; MARGIN-LEFT: 2px
+}
+.profile .discussions .board_topic {
+	WIDTH: 368px
+}
+.profile .profileTable .data .datawrap {
+	OVERFLOW: hidden
+}
+.grouplist .infotable .datawrap {
+	DISPLAY: block; WIDTH: 300px
+}
+#groupslist .info {
+	WIDTH: 420px
+}
+.confirmed .people_table TD {
+	WIDTH: 56px
+}
+.confirmed .people_table TABLE TD.name DIV {
+	WIDTH: 54px
+}
+.guestlist .people_table TD {
+	WIDTH: 60px
+}
+.guestlist .people_table TABLE TD.name DIV {
+	WIDTH: 58px
+}
+.editaccount .action_box .buttons INPUT {
+	WIDTH: 140px
+}
+.editaccount .settings_panel .email_option {
+	PADDING-BOTTOM: 0px
+}
+.editaccount #email .buttons {
+	MARGIN-TOP: 0px; PADDING-LEFT: 20px; MARGIN-LEFT: 0px
+}
+.subrow TD TABLE TD {
+	BORDER-TOP: 3px solid; BORDER-LEFT: 2px solid
+}
+.editor_panel .subrow TD TABLE TD {
+	BORDER-TOP: #f7f7f7 3px solid; BORDER-LEFT: #f7f7f7 2px solid
+}
+.subrow TD TABLE TD INPUT {
+	MARGIN-TOP: 1px
+}
+.school SELECT {
+	MARGIN-BOTTOM: 1px
+}
+.highschool SELECT {
+	MARGIN-TOP: 2px
+}
+.editprofile .noneditable_value {
+	WIDTH: 170px
+}
+.editprofile .editor_actions {
+	PADDING-LEFT: 5px; FLOAT: left
+}
+.set {
+	PADDING-LEFT: 1px
+}
+#create_note {
+	PADDING-LEFT: 0px; MARGIN-LEFT: 1px
+}
+.editnote .side_column {
+	MARGIN: 0px 0px 0px 8px
+}
+#blog_url_field .inputtext {
+	WIDTH: 285px
+}
+.side_column #tag_this_note .inputtext {
+	MARGIN: 0px; WIDTH: 141px
+}
+.editnote .main_column {
+	WIDTH: 408px
+}
+.editnote #upload_iframe {
+	HEIGHT: 48px
+}
+.invite .left #summaryandpager H4 {
+	HEIGHT: 16px
+}
+.my_sharebox .share_header .share_and_hide {
+	WIDTH: 7em
+}
+.share_media .external .video_thumb A IMG.decoy {
+	DISPLAY: none
+}
+.share_media .external .video_thumb A SPAN.thumb {
+	POSITION: relative
+}
+.share_media .external .video_thumb A SPAN.thumb IMG {
+	VISIBILITY: hidden
+}
+.share_media .external .video_thumb A SPAN.play {
+	DISPLAY: none; BACKGROUND-IMAGE: url(/rsrc.php/zE4QP/hash/7pbd52iv.gif); POSITION: relative
+}
+.share_pop_dialog .status H2 {
+	PADDING-BOTTOM: 1px; PADDING-TOP: 1px
+}
+.notifications .submission SMALL {
+	LINE-HEIGHT: 12px
+}
+.notification_checkboxes {
+	MARGIN-TOP: -8px
+}
+.notifications LABEL {
+	DISPLAY: inline-block
+}
+.explanation .square_bullets {
+	MARGIN-LEFT: 0px
+}
+.feedback .mixer_panel .saved_notification {
+	DISPLAY: inline-block
+}
+.feedback .mixer_panel .left_buttons {
+	MARGIN-TOP: 1px
+}
+.feedback .mixer_panel .right_buttons {
+	MARGIN-TOP: 1px
+}
+.feedback .mixer_panel .mixer_bar {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 1px
+}
+.vslider {
+	PADDING-BOTTOM: 19px
+}
+.listing #header {
+	PADDING-BOTTOM: 10px
+}
+.video_dashboard #video_banner {
+	BORDER-LEFT-WIDTH: 0px; MARGIN: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+.video_upload_page .separators {
+	MARGIN-BOTTOM: -1.1em; POSITION: relative
+}
+.video_upload_page .separators A {
+	DISPLAY: inline-block
+}
+#fb_multi_friend_selector #friends .square {
+	POSITION: static
+}
+#fb_multi_friend_selector #friends .square SPAN {
+	POSITION: static
+}
+#fb_multi_friend_selector #fs_filter_links A {
+	DISPLAY: block; FLOAT: left
+}
+#fb_multi_friend_selector .navigator_menu {
+	MARGIN-RIGHT: -10px; POSITION: absolute; TOP: 32px
+}
+#fb_multi_friend_selector .cols_squeeze .navigator_menu {
+	TOP: 30px
+}
+#fb_multi_friend_selector #fs_limit_by_list_menu {
+	MARGIN-RIGHT: 4px
+}
+#fb_multi_friend_selector .navigator_menu UL {
+	WIDTH: 140px; HEIGHT: 220px
+}
+#fb_multi_friend_selector .cols_squeeze #fs_filter_links {
+	POSITION: static
+}
+.num_cols_2 #fb_multi_friend_selector_wrapper .buttons {
+	CLEAR: both
+}
+.num_cols_2 #fb_multi_friend_selector_wrapper #finder .hide {
+	LEFT: 320px; TOP: 44px
+}
+.num_cols_3 #fb_multi_friend_selector_wrapper #finder .hide {
+	TOP: 44px
+}
+.editor #start_calendar {
+	MARGIN-TOP: 18px; MARGIN-LEFT: -35px
+}
+.editor #end_calendar {
+	MARGIN-TOP: 18px; MARGIN-LEFT: -35px
+}
+.calendar .month_title SPAN {
+	MARGIN-LEFT: -80px
+}
+#fb_multi_friend_selector #fs_limit_by_network_menu {
+	RIGHT: 22px
+}
+.num_cols_2 #fb_multi_friend_selector_wrapper .buttons {
+	CLEAR: both
+}
+.req_confirmation #req_msg_add {
+	PADDING-TOP: 6px
+}
+.req_confirmation .req_recipients .token SPAN {
+	DISPLAY: inline
+}
+.req_confirmation .req_preview {
+	HEIGHT: 150px
+}
+INPUT.request_form_submit {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 30px; BACKGROUND: url(/rsrc.php/zD6KF/hash/7hkt9gg8.gif) #3b5998 no-repeat 8px 5px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+.targeting_table TD {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.dev_app_infos {
+	MARGIN: 0px -1px -1px 0px
+}
+.dev_app_list LI.selected .border_hack {
+	BORDER-TOP-WIDTH: 0px; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; BORDER-LEFT-WIDTH: 0px; Z-INDEX: 100; RIGHT: -1px; BORDER-BOTTOM-WIDTH: 0px; PADDING-BOTTOM: 6px; MARGIN: 0px; WIDTH: 1px; TEXT-INDENT: -9999px; PADDING-TOP: 6px; POSITION: absolute; TOP: 0px; HEIGHT: 100%; BACKGROUND-COLOR: #3b5998; BORDER-RIGHT-WIDTH: 0px
+}
+.privacy_widget .advanced .body .friends .advanced_friends_radio_item .radio_left {
+	MARGIN-TOP: -2px; PADDING-LEFT: 3px; PADDING-TOP: 0px
+}
+.privacy_widget .privacy_profile_advanced .checks LABEL {
+	PADDING-LEFT: 2px
+}
+#profilenarrowcolumn .box_subhead {
+	OVERFLOW: hidden; WIDTH: 184px; MARGIN-RIGHT: 1px
+}
+.fbpage_profile #profilenarrowcolumn .box_subhead {
+	MARGIN: auto; OVERFLOW: visible; WIDTH: auto
+}
+.profile .right_column_container .profile_sidebar_ads {
+	MARGIN-RIGHT: 0px
+}
+#no_profile_picture #profileimage IMG {
+	WIDTH: 180px
+}
+.transparent_png {
+	DISPLAY: inline; BACKGROUND-IMAGE: none; ZOOM: 1
+}
+.invisible_png {
+	VISIBILITY: hidden
+}
+.profile_pic_suggest_top_buttons {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.profile_pic_suggest_top_buttons .toggle_tabs {
+	POSITION: relative; TOP: 1px
+}
+.UIActionMenu_Menu {
+	WIDTH: 160px
+}
+#bootloader_css_ie6_css {
+	HEIGHT: 42px
+}

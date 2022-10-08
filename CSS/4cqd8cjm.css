@@ -1,0 +1,1413 @@
+.UIConnectWithFriends .UIUpcoming_Item {
+	PADDING-BOTTOM: 8px
+}
+.UIConnectWithFriends .UIUpcoming_LastItem {
+	PADDING-BOTTOM: 0px
+}
+.emu_preview {
+	PADDING-BOTTOM: 10px; WIDTH: 250px; BORDER-BOTTOM: #e6e6e6 1px solid
+}
+.emu_preview .invalid_emu_warning {
+	COLOR: #f00
+}
+#facebook .emu_ad .hidden {
+	DISPLAY: none
+}
+.emu_ad .morecontent_toggle_link A {
+	MARGIN-TOP: 0px
+}
+.emu_ad .inline_comment {
+	CLEAR: both; PADDING-RIGHT: 4px; PADDING-LEFT: 6px; FLOAT: none; PADDING-BOTTOM: 6px; MARGIN: 0px 0px 2px; OVERFLOW: hidden; PADDING-TOP: 6px; BORDER-BOTTOM: #e5eaf1 1px solid; BACKGROUND-COLOR: #eceff5
+}
+.emu_ad .comment_profile_pic {
+	FLOAT: left; TEXT-ALIGN: left
+}
+.emu_ad .comment_content {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 6px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 199px; LINE-HEIGHT: 13px; PADDING-TOP: 0px
+}
+.emu_ad .comment_content .comment_actions .comment_meta_data {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #999
+}
+.emu_ad .comment_text {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 2px
+}
+.emu_ad .comment_content .x_to_hide {
+	BORDER-RIGHT: medium none; PADDING-RIGHT: 5px; BORDER-TOP: medium none; MARGIN-TOP: -1px; PADDING-LEFT: 5px; BACKGROUND: url(/rsrc.php/zHRFP/hash/1liu05wr.gif) no-repeat center 50%; FLOAT: right; PADDING-BOTTOM: 2px; MARGIN-LEFT: 3px; OVERFLOW: hidden; BORDER-LEFT: medium none; WIDTH: 3px; PADDING-TOP: 1px; BORDER-BOTTOM: medium none
+}
+.emu_ad .comment_box .comment_content .x_to_hide:hover {
+	BACKGROUND: url(/rsrc.php/z1CHR/hash/6qwjpu9v.gif) #3b5998 no-repeat center 50%
+}
+.emu_ad .UIMutableFilterList_Toggle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 3px; FONT-WEIGHT: bold; FONT-SIZE: 9px; FLOAT: none; PADDING-BOTTOM: 2px; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; POSITION: relative
+}
+.emu_ad .toggle_links {
+	CLEAR: both
+}
+.emu_ad .ad_title {
+	DISPLAY: block; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px
+}
+.emu_ad .social_context {
+	PADDING-TOP: 2px
+}
+.emu_ad TEXTAREA {
+	OVERFLOW: auto; WIDTH: 264px
+}
+.emu_preview .invalid_emu_warning {
+	COLOR: #f00
+}
+.UIHomeBox_Sponsored .invalid_emu_warning {
+	COLOR: #f00
+}
+.emu_ad .social_context_pictures {
+	WIDTH: 210px
+}
+.emu_ad .social_picture {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 2px; PADDING-TOP: 0px
+}
+.emu_ad .social_context_pictures_label {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 4px; COLOR: #666; PADDING-TOP: 4px
+}
+.emu_ad .social_context_pictures_container {
+	FLOAT: right; WIDTH: 175px
+}
+.emu_ad .social_context_pictures .hidden_pictures {
+	CLEAR: both
+}
+.emu_ad .contact_importer_frame TD.ad_image {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px
+}
+.emu_ad .emu_tag_frame TD.ad_image {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px
+}
+.emu_ad .emu_itb_frame TD.ad_image {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px
+}
+.emu_ad .CIEmu {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px; OVERFLOW: hidden; WIDTH: 130px
+}
+.emu_ad .CIEmu_Link {
+	FONT-WEIGHT: bold
+}
+.emu_ad .address_book_form {
+	OVERFLOW: hidden
+}
+.emu_ad .contact_importer_frame .ad_text {
+	COLOR: #333; LINE-HEIGHT: 13px
+}
+.emu_ad .contact_importer_frame .ad_image {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px
+}
+.emu_ad .ad_image IMG {
+	VERTICAL-ALIGN: bottom
+}
+.emu_ad .emu_video_frame .ad_image {
+	PADDING-RIGHT: 9px; DISPLAY: block; PADDING-LEFT: 0px; FLOAT: left; PADDING-BOTTOM: 3px; PADDING-TOP: 2px
+}
+.emu_ad .emu_video_frame .emu_video_holder {
+	BACKGROUND-COLOR: #000
+}
+.emu_ad .emu_video_frame .video_thumb {
+	FLOAT: none; POSITION: relative
+}
+.emu_ad .emu_video_frame .ad_text {
+	FLOAT: left; WIDTH: 131px
+}
+.emu_ad .expanded_video .ad_text {
+	MARGIN-TOP: 5px; FLOAT: none; WIDTH: auto
+}
+.emu_ad .emu_video_frame .ad_body {
+	PADDING-BOTTOM: 2px
+}
+.emu_ad .emu_video_frame .video_thumb IMG.decoy {
+	DISPLAY: inline; VISIBILITY: hidden
+}
+.emu_ad .emu_video_frame .video_thumb SPAN.thumb {
+	BACKGROUND-POSITION: left bottom; Z-INDEX: 9; BACKGROUND-IMAGE: url(/rsrc.php/zCC9L/hash/9wfrr2bt.png); CURSOR: pointer; BACKGROUND-REPEAT: no-repeat; POSITION: absolute
+}
+.ie6 .emu_ad .emu_video_frame .video_thumb SPAN.thumb {
+	BACKGROUND-IMAGE: url(/rsrc.php/z674W/hash/6880g9vn.png)
+}
+.emu_ad .emu_video_frame .video_thumb SPAN.play IMG {
+	VISIBILITY: hidden
+}
+.emu_ad .emu_video_frame .video_thumb SPAN.thumb IMG {
+	VISIBILITY: visible
+}
+.emu_ad .emu_video_frame .video_thumb SPAN.play {
+	BACKGROUND-POSITION: left bottom; DISPLAY: inline; Z-INDEX: 10; BACKGROUND-IMAGE: url(/rsrc.php/zCC9L/hash/9wfrr2bt.png); BACKGROUND-REPEAT: no-repeat; POSITION: absolute
+}
+.ie6 .emu_ad .emu_video_frame .video_thumb SPAN.play {
+	BACKGROUND-IMAGE: url(/rsrc.php/z674W/hash/6880g9vn.png)
+}
+.emu_ad .emu_comment_frame {
+	MARGIN: 5px 0px
+}
+.emu_ad .comment_box {
+	FONT-SIZE: 11px; MARGIN: 6px 0px 0px; OVERFLOW: hidden
+}
+.emu_ad .comment_box .morecontent_toggle_link {
+	PADDING-BOTTOM: 5px
+}
+.emu_ad .add_comment {
+	PADDING-BOTTOM: 5px
+}
+.emu_ad .comment_box .comments_add_box .inputtext {
+	WIDTH: 230px
+}
+.emu_ad .comment_box .comments_add_box .inputsubmit {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; MARGIN: 5px 0px 0px; PADDING-TOP: 2px
+}
+.emu_ad .comment_box .comments_add_box .comment_button {
+	MARGIN: 5px 0px 0px
+}
+.emu_ad .comment_box .comments_add_box .submit_progress {
+	MARGIN: 2px 0px 0px 10px
+}
+.emu_ad .fan_action_frame {
+	PADDING-TOP: 4px
+}
+.emu_ad .fan_action_frame .fan_icon {
+	FLOAT: left
+}
+.emu_ad .fan_action_frame .fan_link {
+	MARGIN: 0px 0px 5px 21px
+}
+.emu_ad .fan_action_frame .UIActionButton {
+	MARGIN: 2px 0px 0px
+}
+.emu_ad .fan_action_frame .button_sentence {
+	PADDING-BOTTOM: 5px
+}
+.emu_ad .sample_action_frame {
+	PADDING-TOP: 4px
+}
+.emu_ad .sample_action_frame .sampling_icon {
+	FLOAT: left
+}
+.emu_ad .sample_action_frame .sampling_dialog_link {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 21px; PADDING-BOTTOM: 5px; PADDING-TOP: 1px
+}
+.emu_gift_ad DIV.UIHotStory_Body {
+	WIDTH: 165px
+}
+.emu_ad .gift_action_frame {
+	MARGIN: 5px 0px 0px
+}
+.emu_ad .gift_action_frame IMG.gift_icon {
+	MARGIN-TOP: 9px; FLOAT: left
+}
+.emu_ad .gift_action_frame .give_success {
+	MARGIN: 5px 0px
+}
+.emu_ad .gift_action_frame .tokenizer {
+	BORDER-RIGHT: #bdc7d8 1px solid; BORDER-TOP: #bdc7d8 1px solid; BORDER-LEFT: #bdc7d8 1px solid; WIDTH: 214px; BORDER-BOTTOM: #bdc7d8 1px solid
+}
+.emu_ad .gift_action_frame .gift_form {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 23px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.emu_ad .gift_action_frame .gift_form .gift_msg_and_submit {
+	MARGIN: 3px 0px 0px
+}
+.emu_ad .gift_action_frame .gift_form .form_label {
+	MARGIN: 0px 0px 2px
+}
+.emu_ad .gift_action_frame .gift_form .gift_message {
+	WIDTH: 216px; HEIGHT: 43px
+}
+.emu_ad .gift_action_frame .gift_form .gift_form_submit {
+	MARGIN-TOP: 5px
+}
+.emu_ad .gift_action_frame .gift_givers {
+	MARGIN: 6px 0px 0px
+}
+.emu_ad .gift_action_frame .submit_progress {
+	MARGIN: 0px 0px 0px 10px
+}
+.emu_ad .gift_action_frame .emu_credits_splash {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #45a245
+}
+.emu_ad .gift_action_frame SPAN.credits_rendered_with_symbol {
+	PADDING-LEFT: 11px; BACKGROUND: url(/rsrc.php/zAWCP/hash/bc8l3pae.gif) no-repeat left 2px
+}
+.emu_ad .gift_action_frame SPAN.credits_amount {
+	FONT-WEIGHT: bold; COLOR: #333
+}
+.emu_ad .gift_action_frame .emu_credits_description {
+	FONT-SIZE: 11px; WIDTH: 245px; COLOR: #666
+}
+.emu_ad .gift_action_frame .gift_form .gift_error_msg {
+	POSITION: relative; TOP: 4px
+}
+.emu_ad .gift_action_frame .error {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; MARGIN: 3px 0px 1px; PADDING-TOP: 5px
+}
+.emu_ad .gift_action_frame .status {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 9px; PADDING-BOTTOM: 5px; MARGIN: 3px 0px 1px; PADDING-TOP: 5px
+}
+.emu_ad .gift_action_frame .inline_comment .wall_mini_gift {
+	FLOAT: right; MARGIN: 5px 0px 3px; OVERFLOW: hidden; WIDTH: 32px
+}
+.emu_ad .gift_action_frame .inline_comment .wall_mini_gift .wall_mini_gift_image {
+	WIDTH: 32px; HEIGHT: 32px
+}
+.emu_ad .gift_action_frame .with_gift_icon .comment_content {
+	WIDTH: 170px
+}
+.emu_ad .invite_action_frame {
+	MARGIN: 10px 0px 0px
+}
+.emu_ad .invite_action_frame .email_input {
+	WIDTH: 95%; MARGIN-RIGHT: 0px
+}
+.emu_ad .invite_action_frame .invite_submit {
+	MARGIN-TOP: 6px
+}
+.emu_ad .invite_action_frame .invite_success {
+	MARGIN: 5px 0px
+}
+.emu_ad .invite_action_frame .invite_failure {
+	MARGIN: 5px 0px
+}
+.emu_ad .tag_action_frame {
+	MARGIN: 10px 0px 0px
+}
+.emu_ad .tag_action_frame .tag {
+	WIDTH: 95%; MARGIN-RIGHT: 0px
+}
+.emu_ad .tag_action_frame .tag_input {
+	WIDTH: 95%; MARGIN-RIGHT: 0px
+}
+.emu_ad .tag_action_frame .tag_submit {
+	MARGIN-TOP: 6px
+}
+.emu_ad .tag_action_frame .tag_success {
+	MARGIN: 5px 0px
+}
+.emu_ad .tag_action_frame .tag_failure {
+	MARGIN: 5px 0px
+}
+.emu_ad .event_action_frame .event_info {
+	MARGIN: 3px 0px
+}
+.emu_ad .event_action_frame .event_info .event_details TD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 2px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}
+.emu_ad .event_action_frame .event_info .event_details TD.label {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; WHITE-SPACE: nowrap
+}
+.emu_ad .event_action_frame .event_info .rsvp_section {
+	PADDING-RIGHT: 10px; WHITE-SPACE: nowrap
+}
+.emu_ad .event_action_frame .event_info .inputradio {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: middle; WIDTH: 14px; PADDING-TOP: 0px; HEIGHT: 14px
+}
+.emu_ad .event_action_frame .event_info LABEL {
+	PADDING-LEFT: 3px; FONT-WEIGHT: normal; COLOR: #000
+}
+.emu_ad .event_action_frame .event_info .rsvp_inputs {
+	PADDING-TOP: 2px
+}
+.emu_ad .event_action_frame .event_info .submit_progress {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 3px
+}
+.emu_ad .event_action_frame .event_info .label IMG {
+	VERTICAL-ALIGN: middle; MARGIN-RIGHT: 5px
+}
+.emu_ad .event_action_frame .event_info .label .rsvp_text {
+	VERTICAL-ALIGN: middle
+}
+.emu_ad .event_action_frame .message_form {
+	MARGIN: 5px 0px 0px
+}
+.emu_ad .event_action_frame .message_form .inputsubmit {
+	MARGIN: 5px 0px 0px
+}
+.emu_ad .event_action_frame .friend_rsvps {
+	MARGIN: 10px 0px 0px
+}
+.emu_ad .event_action_frame .event_summary {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 5px; LINE-HEIGHT: 15px; PADDING-TOP: 0px
+}
+.emu_ad .event_action_frame TEXTAREA {
+	MARGIN: 5px 0px; WIDTH: 242px; HEIGHT: 31px
+}
+.emu_ad .event_action_frame .submit_progress {
+	MARGIN: 0px 0px 0px 10px
+}
+.emu_ad .event_action_frame .invite_form {
+	PADDING-BOTTOM: 3px
+}
+.emu_ad .event_action_frame .invite_form .invite_form_submit {
+	MARGIN-TOP: 5px
+}
+.emu_ad .event_action_frame .invite_form .tokenizer {
+	BORDER-RIGHT: #bdc7d8 1px solid; BORDER-TOP: #bdc7d8 1px solid; MARGIN: 5px 0px 0px; BORDER-LEFT: #bdc7d8 1px solid; WIDTH: 240px; BORDER-BOTTOM: #bdc7d8 1px solid
+}
+.emu_ad .event_action_frame .invite_form .invite_form_submit .submit_progress {
+	MARGIN: 0px 0px 0px 10px
+}
+.emu_ad .event_action_frame .invite_success {
+	PADDING-TOP: 3px
+}
+.emu_ad .poll_action_frame {
+	MARGIN: 5px 0px 0px
+}
+.emu_ad .poll_action_frame .poll_choices {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN-LEFT: 1px; PADDING-TOP: 5px; POSITION: relative
+}
+.emu_ad .poll_action_frame .submit_progress {
+	POSITION: absolute
+}
+.emu_ad .poll_action_frame .poll_result .friend_vote_pics {
+	OVERFLOW: hidden; WIDTH: 210px
+}
+.emu_ad .poll_action_frame .poll_result .friend_vote_pics .friend_pic {
+	DISPLAY: block; FLOAT: left; HEIGHT: 35px
+}
+.emu_ad .poll_action_frame .poll_result .friend_vote_pics .friend_pic IMG {
+	WIDTH: 35px; HEIGHT: 35px
+}
+.emu_ad .poll_radios_as_copy {
+	MARGIN-TOP: 0px
+}
+.emu_ad .poll_radios_as_copy .answer_form {
+	PADDING-LEFT: 2px
+}
+.emu_ad .poll_radios_as_copy .answer_form .answer {
+	PADDING-LEFT: 0px
+}
+.emu_ad .research_poll_action_frame .poll_results {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px
+}
+.emu_ad DIV.research_poll_action_frame {
+	MARGIN-TOP: 0px
+}
+.emu_ad .research_poll_action_frame .poll_icon {
+	FLOAT: left
+}
+.emu_ad .research_poll_action_frame .poll_question {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 21px; FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; COLOR: #333; PADDING-TOP: 0px
+}
+.emu_ad .research_poll_description {
+	FONT-SIZE: 11px; COLOR: #999
+}
+.emu_ad .research_poll_explanation {
+	PADDING-LEFT: 4px
+}
+.emu_ad .research_poll_action_frame .question_shielding_text {
+	PADDING-TOP: 5px
+}
+.emu_ad .social_poll_action_frame {
+	PADDING-TOP: 4px
+}
+.emu_ad .social_poll_action_frame .poll_results {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; PADDING-TOP: 5px
+}
+.emu_ad .social_poll_action_frame .poll_icon {
+	FLOAT: left
+}
+.emu_ad .social_poll_action_frame .poll_question {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 21px; PADDING-BOTTOM: 3px; PADDING-TOP: 0px
+}
+.emu_ad A.clickable_body {
+	COLOR: #333; TEXT-DECORATION: none
+}
+.emu_ad A.clickable_body:hover {
+	TEXT-DECORATION: none
+}
+.emu_ad A.underlined_title {
+	TEXT-DECORATION: underline
+}
+.below_social_ad .ads_feedback {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 7px; FLOAT: left; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#home_sponsor .ads_feedback {
+	FLOAT: right
+}
+.ads_feedback A {
+	DISPLAY: inline-block; VERTICAL-ALIGN: middle; WIDTH: 14px; HEIGHT: 14px
+}
+.ads_feedback .thumbs_up {
+	BACKGROUND: url(/rsrc.php/zE5GI/hash/7pjbl6pb.png) no-repeat -514px -233px
+}
+.ads_feedback .thumbs_up:hover {
+	BACKGROUND-POSITION: -514px -216px; TEXT-DECORATION: none
+}
+.ads_feedback .thumbs_dn {
+	BACKGROUND: url(/rsrc.php/zE5GI/hash/7pjbl6pb.png) no-repeat -498px -231px
+}
+.ads_feedback .thumbs_dn:hover {
+	BACKGROUND-POSITION: -498px -214px; TEXT-DECORATION: none
+}
+.ads_feedback .next_ad {
+	BACKGROUND: url(/rsrc.php/zE5GI/hash/7pjbl6pb.png) no-repeat -484px -232px; MARGIN-LEFT: 1px
+}
+.ads_feedback .next_ad:hover {
+	BACKGROUND-POSITION: -484px -215px; TEXT-DECORATION: none
+}
+.ff2 .ads_feedback .thumbs_up {
+	
+}
+.ff2 .ads_feedback .thumbs_dn {
+	
+}
+.ff2 .ads_feedback .next_ad {
+	
+}
+#ads_feedback_select {
+	MARGIN-LEFT: 5px
+}
+#ads_feedback_form_other_text {
+	MARGIN-TOP: 10px; DISPLAY: block; WIDTH: 80%
+}
+.feedback_dialog .disclaimer {
+	MARGIN-TOP: 5px; COLOR: #666
+}
+#home_left_column {
+	FLOAT: left; WIDTH: 670px
+}
+#home_stream {
+	PADDING-LEFT: 14px; FLOAT: left; WIDTH: 530px
+}
+#home_stream .UIIntentionalStream_Top {
+	MARGIN-BOTTOM: 8px; PADDING-BOTTOM: 10px; BORDER-BOTTOM: #eee 1px solid
+}
+#home_filter_list {
+	CLEAR: left; FLOAT: left; WIDTH: 126px
+}
+#home_sidebar {
+	FLOAT: left; MARGIN: -3px 0px 0px 20px; WIDTH: 250px
+}
+.pymk #pymk .friend_grid_row {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; MARGIN: 0px 0px 8px; OVERFLOW: hidden; WIDTH: 250px; PADDING-TOP: 0px; BORDER-BOTTOM: #e5e5e5 1px solid
+}
+.pymk #pymk .last {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BORDER-BOTTOM-STYLE: none
+}
+.pymk #pymk .friend_grid_col {
+	MARGIN-LEFT: 0px; WIDTH: 250px
+}
+.pymk #pymk .friend_grid_col .fg_action_hide {
+	MARGIN-TOP: 1px
+}
+.pymk #pymk .friend_grid_col .fg_action_view {
+	DISPLAY: none
+}
+.pymk #pymk .friend_grid_col .fg_action_hide H5 A {
+	BACKGROUND: url(/rsrc.php/zE5GI/hash/7pjbl6pb.png) no-repeat -869px -65px
+}
+.pymk #pymk .friend_grid_col .fg_action_hide H5 A:hover {
+	BACKGROUND-POSITION: -857px -65px; BACKGROUND-COLOR: #3b5998; TEXT-DECORATION: none
+}
+.pymk #pymk .friend_grid_col .fg_links {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; WIDTH: 170px; PADDING-TOP: 2px
+}
+.pymk #pymk .friend_grid_col .fg_name {
+	PADDING-BOTTOM: 1px
+}
+.pymk #pymk .friend_grid_col .fg_action_add {
+	PADDING-BOTTOM: 1px
+}
+.pymk #pymk .friend_grid_col .fg_name {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+.pymk #pymk .friend_grid_col .fg_name SPAN {
+	COLOR: #333
+}
+.pymk #pymk .friend_grid_col .fg_explanation P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #333; PADDING-TOP: 0px
+}
+.pymk .friend_guess {
+	FLOAT: left; MARGIN: 1px 0px 6px; WIDTH: 150px
+}
+.pymk .friend_guess .fg_img {
+	FLOAT: left; WIDTH: 50px
+}
+.pymk .friend_guess .fg_links {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 7px; FLOAT: left; PADDING-BOTTOM: 0px; WIDTH: 90px; PADDING-TOP: 0px
+}
+.pymk .friend_guess .fg_links .name {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 2px
+}
+.pymk .friend_guess .fg_links .add_link .inactive {
+	COLOR: #666
+}
+.home_no_stories {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 14px; BACKGROUND: url(/rsrc.php/zAIID/hash/20mxotn5.gif) repeat-x left bottom; MARGIN-BOTTOM: 20px; PADDING-BOTTOM: 22px; PADDING-TOP: 20px
+}
+.home_no_stories_icon {
+	BACKGROUND-POSITION: 0px 0px; DISPLAY: block; FLOAT: left; BACKGROUND-IMAGE: url(/rsrc.php/z13XI/hash/433dmco4.gif); OVERFLOW: hidden; WIDTH: 32px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 32px
+}
+.home_no_stories .photo_empty {
+	BACKGROUND-POSITION: 0px -160px
+}
+.home_no_stories .video_empty {
+	BACKGROUND-POSITION: 0px -288px
+}
+.home_no_stories .note_empty {
+	BACKGROUND-POSITION: 0px -128px
+}
+.home_no_stories .link_empty {
+	BACKGROUND-POSITION: 0px -256px
+}
+.home_no_stories .group_empty {
+	BACKGROUND-POSITION: 0px -64px
+}
+.home_no_stories .event_empty {
+	BACKGROUND-POSITION: 0px -320px
+}
+.home_no_stories .list_empty {
+	BACKGROUND-POSITION: 0px -224px
+}
+.home_no_stories .network_empty {
+	BACKGROUND-POSITION: 0px -96px
+}
+.home_no_stories .app_empty {
+	BACKGROUND-POSITION: 0px -192px
+}
+.home_no_stories .gift_empty {
+	BACKGROUND-POSITION: 0px -32px
+}
+.home_no_stories_content {
+	PADDING-LEFT: 13px; FONT-SIZE: 12px; FLOAT: left; COLOR: #666
+}
+.home_no_stories_content STRONG {
+	DISPLAY: block; MARGIN: 0px 0px 3px
+}
+.home_reactivation_message {
+	WIDTH: 669px
+}
+.UIPokes {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.UIPokes .ind_poke {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 8px; PADDING-TOP: 0px
+}
+.UIPokes .ind_poke .ind_poke_icon {
+	FLOAT: left; MARGIN: 1px 5px 0px 0px
+}
+.UIPokes .last_poke {
+	MARGIN-BOTTOM: 0px; PADDING-BOTTOM: 0px
+}
+.UIUpcoming {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.UIUpcoming_Item {
+	DISPLAY: block; COLOR: #333; PADDING-TOP: 2px
+}
+.UIUpcoming_FirstItem {
+	PADDING-TOP: 0px
+}
+.UIUpcoming_FirstItemType {
+	PADDING-TOP: 8px
+}
+.UIUpcoming_Icon {
+	POSITION: absolute
+}
+.UIUpcoming_EventIcon {
+	MARGIN-TOP: -1px
+}
+.UIUpcoming_Info {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 22px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.UIUpcoming_Action {
+	WHITE-SPACE: nowrap
+}
+.UIUpcoming_Event {
+	MARGIN-TOP: 2px; OVERFLOW: hidden
+}
+.UIUpcoming_LastItem {
+	PADDING-BOTTOM: 0px
+}
+.UIUpcoming_Time {
+	FONT-SIZE: 9px; COLOR: #808080; WHITE-SPACE: nowrap
+}
+.megaphone_story_wrapper {
+	CLEAR: left; MARGIN-BOTTOM: 20px; OVERFLOW: hidden
+}
+.dialog_content .megaphone_story_wrapper {
+	MARGIN-BOTTOM: 0px
+}
+.megaphone_story {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; PADDING-TOP: 0px; POSITION: relative
+}
+.megaphone_story .megaphone_header {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; MARGIN: 10px 15px 0px; COLOR: #333
+}
+.megaphone_story .megaphone_content {
+	FONT-SIZE: 11px; MARGIN: 5px 15px 10px
+}
+.megaphone_story .megaphone_hide_link {
+	FONT-SIZE: 11px; RIGHT: 15px; POSITION: absolute; TOP: 10px
+}
+.megaphone_location_friends {
+	MARGIN: 0px
+}
+.spritemap_app_icons {
+	BACKGROUND-IMAGE: url(/rsrc.php/zZL0R/hash/8wwmfenx.png); WIDTH: 16px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px
+}
+.ie6 .spritemap_app_icons {
+	BACKGROUND-IMAGE: url(/rsrc.php/zAF79/hash/5h01v37y.gif); WIDTH: 16px; BACKGROUND-REPEAT: no-repeat; HEIGHT: 16px
+}
+.sx_app_icons__hidden {
+	BACKGROUND-POSITION: -16px 0px
+}
+.UIObject_SelectedItem .sx_app_icons__hidden {
+	BACKGROUND-POSITION: 0px 0px
+}
+.sx_app_icons_applications {
+	BACKGROUND-POSITION: -16px -16px
+}
+.UIObject_SelectedItem .sx_app_icons_applications {
+	BACKGROUND-POSITION: 0px -16px
+}
+.sx_app_icons_blog {
+	BACKGROUND-POSITION: -16px -32px
+}
+.UIObject_SelectedItem .sx_app_icons_blog {
+	BACKGROUND-POSITION: 0px -32px
+}
+.sx_app_icons_cassette {
+	BACKGROUND-POSITION: -16px -48px
+}
+.UIObject_SelectedItem .sx_app_icons_cassette {
+	BACKGROUND-POSITION: 0px -48px
+}
+.sx_app_icons_edit_applications {
+	BACKGROUND-POSITION: -16px -64px
+}
+.UIObject_SelectedItem .sx_app_icons_edit_applications {
+	BACKGROUND-POSITION: 0px -64px
+}
+.sx_app_icons_edit_profile {
+	BACKGROUND-POSITION: -16px -80px
+}
+.UIObject_SelectedItem .sx_app_icons_edit_profile {
+	BACKGROUND-POSITION: 0px -80px
+}
+.sx_app_icons_event {
+	BACKGROUND-POSITION: -16px -96px
+}
+.UIObject_SelectedItem .sx_app_icons_event {
+	BACKGROUND-POSITION: 0px -96px
+}
+.sx_app_icons_favicon {
+	BACKGROUND-POSITION: -16px -112px
+}
+.UIObject_SelectedItem .sx_app_icons_favicon {
+	BACKGROUND-POSITION: 0px -112px
+}
+.sx_app_icons_fbpage {
+	BACKGROUND-POSITION: -16px -128px
+}
+.UIObject_SelectedItem .sx_app_icons_fbpage {
+	BACKGROUND-POSITION: 0px -128px
+}
+.sx_app_icons_find_friends {
+	BACKGROUND-POSITION: -16px -144px
+}
+.UIObject_SelectedItem .sx_app_icons_find_friends {
+	BACKGROUND-POSITION: 0px -144px
+}
+.sx_app_icons_friend {
+	BACKGROUND-POSITION: -16px -160px
+}
+.UIObject_SelectedItem .sx_app_icons_friend {
+	BACKGROUND-POSITION: 0px -160px
+}
+.sx_app_icons_friend_guy {
+	BACKGROUND-POSITION: -16px -176px
+}
+.UIObject_SelectedItem .sx_app_icons_friend_guy {
+	BACKGROUND-POSITION: 0px -176px
+}
+.sx_app_icons_friend_list {
+	BACKGROUND-POSITION: -16px -192px
+}
+.UIObject_SelectedItem .sx_app_icons_friend_list {
+	BACKGROUND-POSITION: 0px -192px
+}
+.sx_app_icons_friends_full {
+	BACKGROUND-POSITION: -16px -208px
+}
+.UIObject_SelectedItem .sx_app_icons_friends_full {
+	BACKGROUND-POSITION: 0px -208px
+}
+.sx_app_icons_frownie {
+	BACKGROUND-POSITION: -16px -224px
+}
+.UIObject_SelectedItem .sx_app_icons_frownie {
+	BACKGROUND-POSITION: 0px -224px
+}
+.sx_app_icons_geo_city {
+	BACKGROUND-POSITION: -16px -240px
+}
+.UIObject_SelectedItem .sx_app_icons_geo_city {
+	BACKGROUND-POSITION: 0px -240px
+}
+.sx_app_icons_gift {
+	BACKGROUND-POSITION: -16px -256px
+}
+.UIObject_SelectedItem .sx_app_icons_gift {
+	BACKGROUND-POSITION: 0px -256px
+}
+.sx_app_icons_group {
+	BACKGROUND-POSITION: -16px -272px
+}
+.UIObject_SelectedItem .sx_app_icons_group {
+	BACKGROUND-POSITION: 0px -272px
+}
+.sx_app_icons_hidden {
+	BACKGROUND-POSITION: -16px -288px
+}
+.UIObject_SelectedItem .sx_app_icons_hidden {
+	BACKGROUND-POSITION: 0px -288px
+}
+.sx_app_icons_link {
+	BACKGROUND-POSITION: -16px -304px
+}
+.UIObject_SelectedItem .sx_app_icons_link {
+	BACKGROUND-POSITION: 0px -304px
+}
+.sx_app_icons_marketplace {
+	BACKGROUND-POSITION: -16px -320px
+}
+.UIObject_SelectedItem .sx_app_icons_marketplace {
+	BACKGROUND-POSITION: 0px -320px
+}
+.sx_app_icons_mobile {
+	BACKGROUND-POSITION: -16px -336px
+}
+.UIObject_SelectedItem .sx_app_icons_mobile {
+	BACKGROUND-POSITION: 0px -336px
+}
+.sx_app_icons_mobile_plus {
+	BACKGROUND-POSITION: -16px -352px
+}
+.UIObject_SelectedItem .sx_app_icons_mobile_plus {
+	BACKGROUND-POSITION: 0px -352px
+}
+.sx_app_icons_motion {
+	BACKGROUND-POSITION: -16px -368px
+}
+.UIObject_SelectedItem .sx_app_icons_motion {
+	BACKGROUND-POSITION: 0px -368px
+}
+.sx_app_icons_network_filter {
+	BACKGROUND-POSITION: -16px -384px
+}
+.UIObject_SelectedItem .sx_app_icons_network_filter {
+	BACKGROUND-POSITION: 0px -384px
+}
+.sx_app_icons_new_feature {
+	BACKGROUND-POSITION: -16px -400px
+}
+.UIObject_SelectedItem .sx_app_icons_new_feature {
+	BACKGROUND-POSITION: 0px -400px
+}
+.sx_app_icons_newsfeed {
+	BACKGROUND-POSITION: -16px -416px
+}
+.UIObject_SelectedItem .sx_app_icons_newsfeed {
+	BACKGROUND-POSITION: 0px -416px
+}
+.sx_app_icons_note {
+	BACKGROUND-POSITION: -16px -432px
+}
+.UIObject_SelectedItem .sx_app_icons_note {
+	BACKGROUND-POSITION: 0px -432px
+}
+.sx_app_icons_photo {
+	BACKGROUND-POSITION: -16px -448px
+}
+.UIObject_SelectedItem .sx_app_icons_photo {
+	BACKGROUND-POSITION: 0px -448px
+}
+.sx_app_icons_post {
+	BACKGROUND-POSITION: -16px -464px
+}
+.UIObject_SelectedItem .sx_app_icons_post {
+	BACKGROUND-POSITION: 0px -464px
+}
+.sx_app_icons_privacy {
+	BACKGROUND-POSITION: -16px -480px
+}
+.UIObject_SelectedItem .sx_app_icons_privacy {
+	BACKGROUND-POSITION: 0px -480px
+}
+.sx_app_icons_search {
+	BACKGROUND-POSITION: -16px -496px
+}
+.UIObject_SelectedItem .sx_app_icons_search {
+	BACKGROUND-POSITION: 0px -496px
+}
+.sx_app_icons_stars {
+	BACKGROUND-POSITION: -16px -512px
+}
+.UIObject_SelectedItem .sx_app_icons_stars {
+	BACKGROUND-POSITION: 0px -512px
+}
+.sx_app_icons_thumbs_down {
+	BACKGROUND-POSITION: -15px -528px; WIDTH: 15px! important
+}
+.UIObject_SelectedItem .sx_app_icons_thumbs_down {
+	BACKGROUND-POSITION: 0px -528px
+}
+.sx_app_icons_translations {
+	BACKGROUND-POSITION: -16px -544px
+}
+.UIObject_SelectedItem .sx_app_icons_translations {
+	BACKGROUND-POSITION: 0px -544px
+}
+.sx_app_icons_video {
+	BACKGROUND-POSITION: -16px -560px
+}
+.UIObject_SelectedItem .sx_app_icons_video {
+	BACKGROUND-POSITION: 0px -560px
+}
+.sx_app_icons_wall_post {
+	BACKGROUND-POSITION: -16px -576px
+}
+.UIObject_SelectedItem .sx_app_icons_wall_post {
+	BACKGROUND-POSITION: 0px -576px
+}
+.sx_app_icons_web_search {
+	BACKGROUND-POSITION: -16px -592px
+}
+.UIObject_SelectedItem .sx_app_icons_web_search {
+	BACKGROUND-POSITION: 0px -592px
+}
+.UIHotStory {
+	BORDER-TOP: #e6e6e6 1px solid; MARGIN-TOP: 6px; OVERFLOW: hidden; PADDING-TOP: 6px
+}
+.UIHotStory_Title {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px
+}
+.UIHotStory_Title_NoLink {
+	COLOR: #333
+}
+.UIHotStory_First {
+	BORDER-TOP-WIDTH: 0px; MARGIN-TOP: 0px; PADDING-TOP: 0px
+}
+.UIHotStory_Media {
+	PADDING-RIGHT: 9px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.UIHotStory_Media .UIMediaItem_Extra {
+	PADDING-LEFT: 6px; FLOAT: left
+}
+.UIHotStory_MediaExtra {
+	PADDING-LEFT: 6px
+}
+.UIHotStory_MediaExtra .UIMediaItem {
+	FLOAT: none
+}
+.UIHotStory .UIHotStory_Media .share_media .extra {
+	FLOAT: none
+}
+.UIMediaItem_ImageLink {
+	DISPLAY: block
+}
+.UIHotStory .UIMediaItem_ImageBackground {
+	BACKGROUND-POSITION: center center; OVERFLOW: hidden; BACKGROUND-REPEAT: no-repeat
+}
+.UIHotStory_Copy {
+	FONT-SIZE: 11px; COLOR: #333; LINE-HEIGHT: 13px; PADDING-TOP: 4px
+}
+.UIHotStory_Copy A.other_people_link:hover {
+	BORDER-BOTTOM: #3b5998 1px dotted; TEXT-DECORATION: none
+}
+.UIHotStory_Why {
+	COLOR: #333
+}
+.UIHotStory_Icon {
+	PADDING-LEFT: 6px; FLOAT: right
+}
+.UIHotStory_Bling {
+	CLEAR: left; PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 1px
+}
+.UIHotStory_Bling_Element {
+	CLEAR: left; DISPLAY: inline-block; MARGIN: 0px 6px 0px 0px
+}
+.UIHotStory_Bling_Element:hover {
+	TEXT-DECORATION: none
+}
+.UIHotStory_Bling_Element:hover .UIHotStory_BlingCount {
+	TEXT-DECORATION: underline
+}
+.UIHotStory_BlingIcon {
+	FLOAT: left; MARGIN: 2px 2px 0px 0px
+}
+.UIHotStory_Bling .sx_icons_mini_credit {
+	MARGIN: 2px 1px 0px 0px
+}
+.ie6 .UIHotStory_Small {
+	ZOOM: 1
+}
+.UIHotStory_Small .UIHotStory_Media {
+	FLOAT: left
+}
+.UIHotStory_Small .UIHotStory_Body {
+	FLOAT: left; WIDTH: 166px
+}
+.UIHotStory_Medium .video_thumb SPAN.play {
+	BACKGROUND-IMAGE: url(/rsrc.php/zCC9L/hash/9wfrr2bt.png)
+}
+.UIHotStory_Medium .video_thumb SPAN.thumb {
+	BACKGROUND-IMAGE: url(/rsrc.php/zCC9L/hash/9wfrr2bt.png)
+}
+.UIHotStory_Small .video_thumb SPAN.play {
+	BACKGROUND-IMAGE: url(/rsrc.php/zCC9L/hash/9wfrr2bt.png)
+}
+.UIHotStory_Small .video_thumb SPAN.thumb {
+	BACKGROUND-IMAGE: url(/rsrc.php/zCC9L/hash/9wfrr2bt.png)
+}
+.ie6 .UIHotStory_Medium .video_thumb SPAN.play {
+	BACKGROUND-IMAGE: url(/rsrc.php/z674W/hash/6880g9vn.png)
+}
+.ie6 .UIHotStory_Medium .video_thumb SPAN.thumb {
+	BACKGROUND-IMAGE: url(/rsrc.php/z674W/hash/6880g9vn.png)
+}
+.ie6 .UIHotStory_Small .video_thumb SPAN.play {
+	BACKGROUND-IMAGE: url(/rsrc.php/z674W/hash/6880g9vn.png)
+}
+.ie6 .UIHotStory_Small .video_thumb SPAN.thumb {
+	BACKGROUND-IMAGE: url(/rsrc.php/z674W/hash/6880g9vn.png)
+}
+.ie6 .UIHotStory_Medium {
+	ZOOM: 1
+}
+.UIHotStory_Medium .UIHotStory_Media {
+	FLOAT: left; PADDING-TOP: 5px
+}
+.UIHotStory_Medium .UIHotStory_Body {
+	FLOAT: left; WIDTH: 130px
+}
+.UIHotStory_Medium .UIHotStory_Copy {
+	PADDING-TOP: 2px
+}
+.UIHotStory_Big .UIHotStory_Media {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.UIHotStory_Big .UIHotStory_Bling {
+	PADDING-TOP: 5px
+}
+.UIStory_Open DIV.UIHotStory_Body {
+	WIDTH: 100%; PADDING-TOP: 4px
+}
+.UIStory_Open DIV.UIHotStory_Media {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px
+}
+.UIHotStory .swfvideo .extra {
+	PADDING-RIGHT: 0px; PADDING-BOTTOM: 0px
+}
+.UIHotStory .stream_participants_not_expanded .stream_participants_long {
+	DISPLAY: none
+}
+.UIHotStory .stream_participants_expanded .stream_participants_short {
+	DISPLAY: none
+}
+.UIObjectListing {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MIN-HEIGHT: 50px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #eee 1px solid
+}
+.UIObjectListing_Pic {
+	FLOAT: left; OVERFLOW: hidden; WIDTH: 50px; POSITION: relative; HEIGHT: 50px
+}
+.UIObjectListing_PicPadding .UIObjectListing_Pic {
+	PADDING-LEFT: 5px
+}
+.UIObjectListing_PicRounded {
+	DISPLAY: block; Z-INDEX: 1; BACKGROUND: none transparent scroll repeat 0% 0%; FILTER: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/rsrc.php/zBTA0/hash/646twf0r.png", sizingMethod="scale"); WIDTH: 50px; POSITION: absolute; HEIGHT: 50px
+}
+.UIObjectListing_MetaData {
+	PADDING-LEFT: 10px; FLOAT: left; OVERFLOW: hidden; PADDING-TOP: 12px; WHITE-SPACE: nowrap; TEXT-OVERFLOW: ellipsis
+}
+#FriendsPage_Container .UIObjectListing_MetaData {
+	WIDTH: 300px
+}
+#FriendsPage_Container .UIObjectListing_RightContent {
+	WIDTH: 200px
+}
+.UIObjectListing_MetaDataSecondary {
+	OVERFLOW: hidden; TEXT-OVERFLOW: ellipsis
+}
+.UIObjectListing_Title {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px
+}
+.UIObjectListing_TitleNormal .UIObjectListing_Title {
+	FONT-WEIGHT: normal
+}
+.UIObjectListing_Subtext {
+	COLOR: #666
+}
+.UIObjectListing_Subtitle {
+	PADDING-RIGHT: 5px
+}
+.UIObjectListing_RightContent {
+	FLOAT: right
+}
+.ff2 .UIObjectListing_RightContent {
+	FLOAT: none
+}
+.UIObjectListing_ActionContainer {
+	PADDING-RIGHT: 19px; FLOAT: right; PADDING-TOP: 13px; WHITE-SPACE: nowrap
+}
+.UIObjectListing_HasRemoveControl .UIObjectListing_ActionContainer {
+	BORDER-RIGHT: #e7e7e7 1px solid; PADDING-RIGHT: 8px; MARGIN-TOP: 10px; PADDING-TOP: 4px; HEIGHT: 27px
+}
+.UIObjectListing_RemoveContainer {
+	PADDING-RIGHT: 19px; PADDING-LEFT: 8px; FLOAT: right; PADDING-TOP: 16px
+}
+.UIObjectListing_RemoveLink {
+	DISPLAY: block; BACKGROUND: url(/rsrc.php/zD7VA/hash/264y7jxk.gif) no-repeat left top; WIDTH: 18px; HEIGHT: 18px
+}
+.UIObjectListing_RemoveLink:hover {
+	BACKGROUND-POSITION: right top; TEXT-DECORATION: none
+}
+.tooltip_lock {
+	MARGIN-LEFT: 4px
+}
+.tooltip {
+	DISPLAY: none; Z-INDEX: 4; OVERFLOW: hidden; POSITION: absolute
+}
+.tooltip_right_center {
+	PADDING-LEFT: 4px; BACKGROUND: url(/rsrc.php/zDWCP/hash/dq7njxts.gif) no-repeat 0px center
+}
+.tooltip_top_center {
+	BACKGROUND: url(/rsrc.php/z2BD9/hash/2a1013qg.gif) no-repeat center bottom; PADDING-BOTTOM: 4px
+}
+.tooltip_bottom_center {
+	BACKGROUND: url(/rsrc.php/z3ZGC/hash/cuoc6rch.gif) no-repeat center top; PADDING-TOP: 4px
+}
+.tooltip_left_center {
+	PADDING-RIGHT: 4px; BACKGROUND: url(/rsrc.php/zE3Y2/hash/13v49y9w.gif) no-repeat right center
+}
+.tooltip_inner {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 11px; PADDING-BOTTOM: 4px; MARGIN: 0px; OVERFLOW: hidden; COLOR: #fff; PADDING-TOP: 4px; BACKGROUND-COLOR: #282828; max-width: 215px
+}
+.UIButton {
+	BORDER-RIGHT: 1px solid; PADDING-RIGHT: 6px; BORDER-TOP: 1px solid; DISPLAY: inline-block; PADDING-LEFT: 6px; BACKGROUND-IMAGE: url(/rsrc.php/zD0UO/hash/4hvlr9i2.gif); PADDING-BOTTOM: 4px; BORDER-LEFT: 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: 1px solid; outline: none
+}
+.UIButton:hover {
+	TEXT-DECORATION: none
+}
+.UIButton:active {
+	TEXT-DECORATION: none
+}
+.UIButton_Text {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 11px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: visible; WIDTH: auto; CURSOR: pointer; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BACKGROUND-COLOR: transparent; BORDER-BOTTOM-STYLE: none
+}
+SPAN.UIFormButton {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+SPAN.UIFormButton .UIFormButton_Text {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; PADDING-TOP: 3px
+}
+.UIButton_Gray {
+	BORDER-LEFT-COLOR: #888; BORDER-BOTTOM-COLOR: #888; BORDER-TOP-COLOR: #888; BORDER-RIGHT-COLOR: #888
+}
+.UIButton_Gray:active {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #ddd
+}
+.UIButton_Gray .UIButton_Text {
+	COLOR: #333; text-shadow: none
+}
+.UIButton_Blue {
+	BACKGROUND-POSITION: 0px -48px; BORDER-LEFT-COLOR: #152f5f; BORDER-BOTTOM-COLOR: #0c2253; BORDER-TOP-COLOR: #26446e; BORDER-RIGHT-COLOR: #152f5f
+}
+.UIButton_Blue:active {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #516899
+}
+.UIButton_Blue .UIButton_Text {
+	COLOR: #fff; text-shadow: 0 1px 0 #3e5a88
+}
+.UIButton_Green {
+	BACKGROUND-POSITION: 0px -96px; BORDER-LEFT-COLOR: #236013; BORDER-BOTTOM-COLOR: #16540a; BORDER-TOP-COLOR: #386f24; BORDER-RIGHT-COLOR: #236013
+}
+.UIButton_Green:active {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #609946
+}
+.UIButton_Green .UIButton_Text {
+	COLOR: #fff; text-shadow: 0 1px 0 #4d8835
+}
+.UIButton_Suppressed {
+	BORDER-LEFT-COLOR: transparent; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-BOTTOM-COLOR: transparent; BORDER-TOP-COLOR: transparent; BORDER-RIGHT-COLOR: transparent
+}
+.ie6 .UIButton_Suppressed {
+	BORDER-LEFT-COLOR: #888; BACKGROUND-IMAGE: url(/rsrc.php/zD0UO/hash/4hvlr9i2.gif); BORDER-BOTTOM-COLOR: #888; BORDER-TOP-COLOR: #888; BORDER-RIGHT-COLOR: #888
+}
+.UIButton_Suppressed:hover {
+	BORDER-LEFT-COLOR: #888; BACKGROUND-IMAGE: url(/rsrc.php/zD0UO/hash/4hvlr9i2.gif); BORDER-BOTTOM-COLOR: #888; BORDER-TOP-COLOR: #888; BORDER-RIGHT-COLOR: #888
+}
+.UIButton_Suppressed:active {
+	BACKGROUND-IMAGE: none; BACKGROUND-COLOR: #ddd
+}
+.UIButton_Disabled {
+	BORDER-LEFT-COLOR: #b8b8b8; BACKGROUND-IMAGE: none; BORDER-BOTTOM-COLOR: #b8b8b8; BORDER-TOP-COLOR: #b8b8b8; BACKGROUND-COLOR: #f2f2f2; BORDER-RIGHT-COLOR: #b8b8b8
+}
+.UIButton_Disabled:active {
+	BORDER-LEFT-COLOR: #b8b8b8; BACKGROUND-IMAGE: none; BORDER-BOTTOM-COLOR: #b8b8b8; BORDER-TOP-COLOR: #b8b8b8; BACKGROUND-COLOR: #f2f2f2; BORDER-RIGHT-COLOR: #b8b8b8
+}
+.UIButton_Disabled .UIButton_Text {
+	COLOR: #b8b8b8; text-shadow: none
+}
+.UIButton_Disabled:active .UIButton_Text {
+	COLOR: #b8b8b8; text-shadow: none
+}
+.UIButton_Depressed {
+	BORDER-LEFT-COLOR: #525252; BACKGROUND-IMAGE: none; BORDER-BOTTOM-COLOR: #525252; BORDER-TOP-COLOR: #525252; BACKGROUND-COLOR: #7d7d7d; BORDER-RIGHT-COLOR: #525252
+}
+.UIButton_Depressed .UIButton_Text {
+	COLOR: #fff
+}
+.UIFilterList {
+	
+}
+.UIFilterList_Title {
+	PADDING-LEFT: 2px; FONT-WEIGHT: bold; PADDING-BOTTOM: 4px; COLOR: #333
+}
+.UIFilterList_BottomMargin {
+	PADDING-BOTTOM: 20px
+}
+.UIFilterList_Footer {
+	PADDING-RIGHT: 6px; BORDER-TOP: #d6d9de 1px solid; DISPLAY: none; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 9px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; POSITION: relative
+}
+.UIFilterList_EditLink {
+	PADDING-RIGHT: 6px; BORDER-TOP: #d6d9de 1px solid; DISPLAY: none; PADDING-LEFT: 5px; FONT-WEIGHT: bold; FONT-SIZE: 9px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; POSITION: relative
+}
+.UIFilterList_Create {
+	DISPLAY: block; FLOAT: right
+}
+.UIFilterList_Plus {
+	DISPLAY: inline-block; PADDING-LEFT: 7px; BACKGROUND: url(/rsrc.php/z1LLD/hash/2fsstbex.gif) no-repeat; MARGIN: 0px 3px 0px 0px; HEIGHT: 10px
+}
+.UIMutableFilterList_Arrow {
+	DISPLAY: inline-block; PADDING-LEFT: 7px; BACKGROUND: url(/rsrc.php/z1LLD/hash/2fsstbex.gif) no-repeat; MARGIN: 0px 3px 0px 0px; HEIGHT: 10px
+}
+.UIFilterList_Plus {
+	BACKGROUND-POSITION: -232px -87px
+}
+.UIFilterList_BlankState {
+	PADDING-RIGHT: 3px; BORDER-TOP: #ddd 1px solid; DISPLAY: none; PADDING-LEFT: 3px; PADDING-BOTTOM: 5px; COLOR: #666; LINE-HEIGHT: 16px; PADDING-TOP: 5px
+}
+.UIFilterList_HasBlankState .UIFilterList_BlankState {
+	DISPLAY: block
+}
+.UIFilterList_List {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.UIFilterList_HasBlankState .UIFilterList_List {
+	DISPLAY: none
+}
+.UIFilterList_Item {
+	DISPLAY: block; MARGIN: 0px; OVERFLOW: hidden; POSITION: relative; HEIGHT: 26px
+}
+.UIFilterList_Icon {
+	BACKGROUND-POSITION: right top; DISPLAY: block; LEFT: 5px; WIDTH: 16px; BACKGROUND-REPEAT: no-repeat; POSITION: absolute; TOP: 5px; HEIGHT: 16px
+}
+.UIFilterList_HasIcon .UIFilterList_SpriteIcon {
+	LEFT: 5px; POSITION: absolute; TOP: 5px
+}
+.UIFilterList_EditIcon {
+	DISPLAY: none
+}
+.UIFilterList_ItemRight {
+	DISPLAY: none
+}
+.UIFilterList .UIObject_SelectedItem {
+	BORDER-TOP: #fff 1px solid; BACKGROUND: no-repeat left top; MARGIN: -1px 0px; HEIGHT: 27px
+}
+.UIObject_SelectedItem .UIFilterList_ItemRight {
+	DISPLAY: block; RIGHT: 0px; BACKGROUND: no-repeat left -27px; WIDTH: 9px; POSITION: absolute; TOP: 0px; HEIGHT: 27px
+}
+.UIFilterList_EditIcon {
+	BACKGROUND-IMAGE: url(/rsrc.php/z1UXV/hash/bq0ydmif.gif)
+}
+.UIFilterList .UIObject_SelectedItem {
+	BACKGROUND-IMAGE: url(/rsrc.php/z1UXV/hash/bq0ydmif.gif)
+}
+.UIObject_SelectedItem .UIFilterList_ItemRight {
+	BACKGROUND-IMAGE: url(/rsrc.php/z1UXV/hash/bq0ydmif.gif)
+}
+.UIObject_SelectedItem .UIFilterList_Icon {
+	BACKGROUND-POSITION: left top
+}
+.UIObject_SelectedItem .UIFilterList_EditIcon {
+	BACKGROUND-POSITION: 0px -70px; DISPLAY: block; Z-INDEX: 1; RIGHT: 5px; LEFT: auto; WIDTH: 16px; CURSOR: pointer; POSITION: absolute; TOP: 5px; HEIGHT: 16px
+}
+.UIObject_SelectedItem .UIFilterList_EditIcon:hover {
+	BACKGROUND-POSITION: 0px -54px
+}
+.UIFilterList_Item .UIFilterList_ItemLink {
+	PADDING-RIGHT: 9px; BORDER-TOP: #d6d9de 1px solid; DISPLAY: block; PADDING-LEFT: 9px; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: hidden; COLOR: #333; PADDING-TOP: 6px; HEIGHT: 19px; TEXT-OVERFLOW: ellipsis
+}
+.UIFilterList_Item .UIFilterList_ItemLink .UIFilterList_Title {
+	FONT-WEIGHT: normal; COLOR: #333; WHITE-SPACE: nowrap
+}
+.ie6 .UIFilterList_Item .UIFilterList_ItemLink {
+	PADDING-TOP: 2px; HEIGHT: 23px
+}
+.ie6 .UIFilterList_Item .UIFilterList_ItemLink .UIFilterList_Title {
+	FONT-WEIGHT: normal; LINE-HEIGHT: 20px; WHITE-SPACE: normal
+}
+.UIFilterList_HasIcon .UIFilterList_ItemLink {
+	PADDING-LEFT: 25px
+}
+.UIFilterList_Item .UIFilterList_ItemLink:hover {
+	BACKGROUND-COLOR: #eceef4; TEXT-DECORATION: none
+}
+.UIObject_SelectedItem .UIFilterList_ItemLink:hover {
+	BACKGROUND-COLOR: transparent
+}
+.UIObject_SelectedItem .UIFilterList_ItemLink {
+	BORDER-TOP: 0px; PADDING-BOTTOM: 6px; COLOR: #fff
+}
+.UIObject_SelectedItem .UIFilterList_ItemLink .UIFilterList_Title {
+	COLOR: #fff
+}
+.UIObject_SelectedItem .UIFilterList_HasEditIcon {
+	PADDING-RIGHT: 19px
+}
+.UIObject_SelectedItem .UIFilterList_LoadingIndicator {
+	DISPLAY: none; Z-INDEX: 2; RIGHT: 10px; BACKGROUND: url(/rsrc.php/z57QP/hash/6nr0un50.gif) no-repeat left top; WIDTH: 16px; POSITION: absolute; TOP: 8px; HEIGHT: 11px
+}
+.UIFilterList_Loading .UIObject_SelectedItem .UIFilterList_LoadingIndicator {
+	DISPLAY: block
+}
+.UIFilterList_Loading .UIObject_SelectedItem .UIFilterList_EditIcon {
+	DISPLAY: none
+}
+.UIFilterList_Loading .UIObject_SelectedItem {
+	PADDING-RIGHT: 31px
+}
+.safari3 .UIFilterList_Loading .UIObject_SelectedItem .UIFilterList_ItemLink {
+	PADDING-RIGHT: 25px
+}
+.UIFilterList_Button {
+	PADDING-LEFT: 3px; PADDING-TOP: 5px
+}
+.UIFilterList_CreateLink {
+	DISPLAY: block; PADDING-BOTTOM: 5px; PADDING-TOP: 3px
+}
+.UIFilterList_DragHandle {
+	DISPLAY: none; Z-INDEX: 1; RIGHT: 5px; BACKGROUND: url(/rsrc.php/z1UXV/hash/bq0ydmif.gif) no-repeat -16px -70px; WIDTH: 16px; CURSOR: move; POSITION: absolute; TOP: 7px; HEIGHT: 16px
+}
+.UIObject_SelectedItem .UIFilterList_DragHandle {
+	BACKGROUND-POSITION: -16px -56px
+}
+.UIFilterList_EditMode .UIFilterList_DragHandle {
+	DISPLAY: block
+}
+.UIFilterList_EditLink {
+	DISPLAY: block
+}
+.UIFilterList_EditMode .UIFilterList_Footer {
+	DISPLAY: block
+}
+.UIFilterList_Loading .UIObject_SelectedItem .UIFilterList_DragHandle {
+	DISPLAY: none
+}
+.UIFilterList_EditMode .UIFilterList_EditLink {
+	DISPLAY: none
+}
+.UIFilterList_NoBorder {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.UIFilterList_EditMode .UIFilterList_ItemLink {
+	PADDING-RIGHT: 25px
+}
+.UIFilterList_EditMode .UIFilterList_Title {
+	DISPLAY: block; OVERFLOW: hidden; TEXT-OVERFLOW: ellipsis
+}
+.UIMutableFilterList_Toggle {
+	PADDING-RIGHT: 8px; DISPLAY: block; FLOAT: left; ZOOM: 1
+}
+.UIMutableFilterList_Toggle:hover {
+	TEXT-DECORATION: underline
+}
+.UIMutableFilterList_Arrow {
+	BACKGROUND-POSITION: -209px -88px
+}
+.UIMutableFilterList_Hide .UIMutableFilterList_Arrow {
+	BACKGROUND-POSITION: -221px -88px
+}
+.UIMutableFilterList_HiddenSection {
+	OVERFLOW: hidden
+}
+.UIMutableFilterList_Separator {
+	BORDER-TOP: #b3b3b3 1px solid; HEIGHT: 1px
+}
+.UIMutableFilterList_Tip {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; FONT-SIZE: 9px; PADDING-BOTTOM: 5px; COLOR: #666; PADDING-TOP: 5px
+}
+.UIMutableFilterList_OrderMsg {
+	BORDER-TOP: #ccc 1px solid; MARGIN-RIGHT: 3px
+}
+.UIFilterList_List .droppable_placeholder {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.UIMutableFilterList_EmptyBox {
+	BORDER-RIGHT: #d6d9de 2px dashed; BORDER-TOP: #d6d9de 2px dashed; MARGIN-TOP: 3px; DISPLAY: block; BORDER-LEFT: #d6d9de 2px dashed; BORDER-BOTTOM: #d6d9de 2px dashed; HEIGHT: 30px
+}
+.UITabStructure_Container {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; MARGIN: 0px; PADDING-TOP: 3px
+}
+.UITabStructure_BottomBorder {
+	BORDER-BOTTOM: #898989 1px solid
+}
+.UITabStructure_Left {
+	PADDING-LEFT: 10px; FLOAT: left
+}
+.UITabStructure_Right {
+	PADDING-RIGHT: 10px; FLOAT: right
+}
+.UITabStructure_FullBleed {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.UITabStructure_Tabs {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none; TEXT-ALIGN: center
+}
+.UITabStructure_Tabs LI {
+	PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; FONT-SIZE: 13px; BACKGROUND: url(/rsrc.php/z9I9Z/hash/cofdq77a.gif) #f1f1f1 repeat-x left top; PADDING-BOTTOM: 3px; PADDING-TOP: 2px
+}
+.UITabStructure_Tabs LI A {
+	BORDER-RIGHT: #898989 1px solid; PADDING-RIGHT: 8px; BORDER-TOP: #898989 1px solid; PADDING-LEFT: 9px; FONT-WEIGHT: bold; PADDING-BOTTOM: 3px; BORDER-LEFT: #898989 0px solid; COLOR: #333; PADDING-TOP: 2px; BORDER-BOTTOM: #898989 1px solid
+}
+.UITabStructure_Tabs LI A:unknown {
+	outline: 0
+}
+.UITabStructure_Tabs LI.UITabStructure_TabFirst A {
+	BORDER-RIGHT: #898989 1px solid; BORDER-TOP: #898989 1px solid; BORDER-LEFT: #898989 1px solid; BORDER-BOTTOM: #898989 1px solid
+}
+.UITabStructure_Tabs LI A.UITabStructure_TabSelected {
+	BORDER-RIGHT: #5973a9 1px solid; BORDER-TOP: #3b5998 1px solid; BACKGROUND: #6d84b4; MARGIN-LEFT: -1px; BORDER-LEFT: #5973a9 1px solid; COLOR: #fff; BORDER-BOTTOM: #3b5998 1px solid
+}
+.UITabStructure_Tabs LI.UITabStructure_TabLast A.UITabStructure_TabSelected {
+	BORDER-RIGHT: #36538f 1px solid; MARGIN-LEFT: -1px; BORDER-LEFT: #5973a9 1px solid
+}
+.UITabStructure_Tabs LI.UITabStructure_TabFirst A.UITabStructure_TabSelected {
+	BORDER-RIGHT: #5973a9 1px solid; MARGIN: 0px; BORDER-LEFT: #36538f 1px solid
+}
+.UITabStructure_Tabs LI.UITabStructure_TabLast A.UITabStructure_TabSelected {
+	BORDER-RIGHT: #36538f 1px solid; BORDER-TOP: #36538f 1px solid; BORDER-LEFT: #36538f 1px solid; BORDER-BOTTOM: #36538f 1px solid
+}
+.UITabStructure_Tabs LI A.UITabStructure_TabSelected:hover {
+	TEXT-DECORATION: none
+}
+.UITabStructure_Tabs LI A.UITabStructure_TabDisabled {
+	CURSOR: default; COLOR: #999
+}
+.UITabStructure_Tabs LI A.UITabStructure_TabDisabled:hover {
+	TEXT-DECORATION: none
+}
+.lightbox .pop_content .dialog_content {
+	BORDER-RIGHT: #333 1px solid; BORDER-TOP: #333 1px solid; BORDER-LEFT: #333 1px solid; BORDER-BOTTOM: #333 1px solid
+}
+.lightbox .pop_content .dialog_body {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 0; PADDING-TOP: 0px; BACKGROUND-COLOR: #000; BORDER-BOTTOM-STYLE: none
+}
+.close A {
+	PADDING-RIGHT: 8px; DISPLAY: none; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 4px; COLOR: #fff; PADDING-TOP: 4px
+}
+#bootloader_css_277gp0f1821wcwgg_pkg_css {
+	HEIGHT: 42px
+}

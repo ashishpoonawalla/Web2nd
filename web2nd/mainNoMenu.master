@@ -1,0 +1,208 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mainNoMenu.master.cs" Inherits="web2nd" %>
+<%@ Register Src="AdverTiseMenu1.ascx" TagName="AdverTiseMenu1" TagPrefix="uc2" %>
+<%@ Register Src="FBTool.ascx" TagName="FBTool" TagPrefix="uc4" %>
+<%@ Register Src="MainMenu.ascx" TagName="MainMenu" TagPrefix="uc1" %>
+<%@ Register
+    Assembly="AjaxControlToolkit"
+    Namespace="AjaxControlToolkit"
+    TagPrefix="ajaxToolkit" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+<script language="javascript" type="text/javascript">
+<!--
+
+function IMG1_onclick() {
+
+}
+
+// -->
+</script>
+
+ 
+   <link href="../CSS/eh2vbogl.css" rel="stylesheet" type="text/css" />
+</head>
+<body background="../Background/a9.bmp">
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePartialRendering="true">
+</asp:ScriptManager>
+     
+     
+     
+       <div>
+         
+        
+        <table style="width: 100%; position: static" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center" colspan="3" style="height: 7px" valign="top">
+                    <div style="text-align: center">
+                        <uc1:MainMenu id="MainMenu1" runat="server">
+                        </uc1:MainMenu>&nbsp;</div>
+                </td>
+            </tr>
+            <tr>
+                <td align="center" colspan="3" valign="top">
+                    <table align="center" cellpadding="0" cellspacing="5" style="position: static;" width="907">
+                        <tr>
+                            <td align="left" colspan="2" rowspan="3" style="height: 366px; width: 757px;" valign="top">
+                                <table cellpadding="0" cellspacing="0" style="width: 700px; position: static">
+                                    <tr>
+                                        <td style="width: 100px; height: 13px;">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td align="left" rowspan="3" style="width: 100px; height: 366px;" valign="top">
+                                <div style="text-align: left">
+                                    <table cellspacing="2" style="border-left: lavender thin solid; position: static"
+                                        width="162">
+                                        <tr>
+                                            <td style="width: 100px" valign="top">
+                                                <asp:SqlDataSource ID="SqlDataSource11" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
+                                                    SelectCommand="SELECT * FROM [Advertise1] WHERE ([Type] = @Type)">
+                                                    <SelectParameters>
+                                                        <asp:SessionParameter Name="Type" SessionField="advA" Type="String" />
+                                                    </SelectParameters>
+                                                </asp:SqlDataSource>
+                                                <asp:DataList ID="DataList11" runat="server" DataKeyField="ID" DataSourceID="SqlDataSource11"
+                                                    Font-Size="8pt" Style="position: static" Width="166px">
+                                                    <ItemTemplate>
+                                                        <table border="0" cellpadding="0" cellspacing="3" style="position: static; border-bottom: gainsboro 1px dotted;"
+                                                            width="150">
+                                                            <tr>
+                                                                <td colspan="2">
+                                                                    <br />
+                                                                    <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" NavigateUrl='<%# Eval("Link1") %>'
+                                                                        Style="position: static" Target="_blank" Text='<%# Eval("Title") %>' Width="186px"></asp:HyperLink></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" colspan="2" rowspan="2">
+                                                                    &nbsp;<asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/web2nd/image/ToopThumUp.bmp"
+                                                                        Style="position: static" />
+                                                                    &nbsp; &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="80px" ImageUrl='<%# Eval("Image1") %>'
+                                                                        Style="position: static" Width="110px" /></td>
+                                                            </tr>
+                                                            <tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2">
+                                                                    <br />
+                                                                    <asp:HyperLink ID="HyperLink2" runat="server" Font-Size="8pt" ForeColor="DimGray"
+                                                                        NavigateUrl='<%# Eval("Link1") %>' Style="position: static" Target="_blank" Text='<%# Eval("Message") %>'
+                                                                        Width="188px"></asp:HyperLink></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2" style="height: 7px">
+                                                                    <table border="0" cellpadding="0" cellspacing="1" style="position: static">
+                                                                        <tr>
+                                                                            <td style="width: 21px; height: 19px">
+                                                                            </td>
+                                                                            <td style="width: 100px; height: 19px">
+                                                                                <asp:HyperLink ID="HyperLink1" runat="server" Font-Size="8pt" ForeColor="#6666FF"
+                                                                                    NavigateUrl='<%# Eval("Link1") %>' Style="position: static" Visible="False" Width="129px">Like</asp:HyperLink></td>
+                                                                            <td style="width: 100px; height: 19px">
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </ItemTemplate>
+                                                </asp:DataList></td>
+                                        </tr>
+                                        <tr>
+                                            <td style="width: 100px" valign="top">
+                                                <asp:SqlDataSource ID="SqlDataSource21" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>"
+                                                    SelectCommand="SELECT * FROM [Advertise1] WHERE ([Type] = @Type)">
+                                                    <SelectParameters>
+                                                        <asp:SessionParameter Name="Type" SessionField="advB" Type="String" />
+                                                    </SelectParameters>
+                                                </asp:SqlDataSource>
+                                                <asp:DataList ID="DataList2" runat="server" DataKeyField="ID" DataSourceID="SqlDataSource21"
+                                                    Font-Size="8pt" Style="position: static" Width="166px">
+                                                    <ItemTemplate>
+                                                        <table border="0" cellpadding="0" cellspacing="3" style="position: static; border-bottom: gainsboro 1px dotted;"
+                                                            width="150">
+                                                            <tr>
+                                                                <td colspan="2">
+                                                                    <br />
+                                                                    <asp:HyperLink ID="HyperLink5" runat="server" Font-Bold="True" NavigateUrl='<%# Eval("Link1") %>'
+                                                                        Style="position: static" Target="_blank" Text='<%# Eval("Title") %>' Width="186px"></asp:HyperLink></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" colspan="2" rowspan="2">
+                                                                    &nbsp;<asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="~/web2nd/image/ToopThumUp.bmp"
+                                                                        Style="position: static" />
+                                                                    &nbsp; &nbsp;<asp:ImageButton ID="ImageButton1" runat="server" Height="80px" ImageUrl='<%# Eval("Image1") %>'
+                                                                        Style="position: static" Width="110px" /></td>
+                                                            </tr>
+                                                            <tr>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2">
+                                                                    <br />
+                                                                    <asp:HyperLink ID="HyperLink2" runat="server" Font-Size="8pt" ForeColor="DimGray"
+                                                                        NavigateUrl='<%# Eval("Link1") %>' Style="position: static" Target="_blank" Text='<%# Eval("Message") %>'
+                                                                        Width="188px"></asp:HyperLink></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="2" style="height: 7px">
+                                                                    <table border="0" cellpadding="0" cellspacing="1" style="position: static">
+                                                                        <tr>
+                                                                            <td style="width: 21px; height: 19px">
+                                                                            </td>
+                                                                            <td style="width: 100px; height: 19px">
+                                                                                <asp:HyperLink ID="HyperLink1" runat="server" Font-Size="8pt" ForeColor="#6666FF"
+                                                                                    NavigateUrl='<%# Eval("Link1") %>' Style="position: static" Target="_blank" Visible="False"
+                                                                                    Width="129px">Like</asp:HyperLink></td>
+                                                                            <td style="width: 100px; height: 19px">
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </ItemTemplate>
+                                                </asp:DataList></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                        </tr>
+                        <tr>
+                        </tr>
+                    </table>
+                    </td>
+            </tr>
+            <tr>
+                <td align="right" colspan="3" style="height: 21px" valign="top">
+                    </td>
+            </tr>
+        </table>
+           <br />
+           <br />
+           &nbsp;<uc4:FBTool ID="FBTool1" runat="server" OnLoad="FBTool1_Load" />
+       
+     
+     
+     
+       </div>
+        
+        
+        
+         <!- ------------------------------------------ Always visible ---------------------------><div class="demoarea">
+             &nbsp;</div>
+        
+     
+      <!- ------------------------------------------ --------------------------->
+     
+        
+    </form>
+</body>
+</html>

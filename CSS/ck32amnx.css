@@ -1,0 +1,777 @@
+.UIComposer {
+	Z-INDEX: 11; MARGIN-BOTTOM: 10px; POSITION: relative
+}
+.UIComposer .UIRoundedBox_Box {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.UIComposer_Upload_Iframe {
+	LEFT: 0px; WIDTH: 1px; POSITION: absolute; TOP: -1000px; HEIGHT: 1px
+}
+.UIComposer_Pic {
+	LEFT: 0px; POSITION: absolute
+}
+.UIComposer_PicRounded {
+	LEFT: 0px; POSITION: absolute
+}
+.UIComposer_Prompt {
+	DISPLAY: block; PADDING-LEFT: 1px; FONT-WEIGHT: bold; FONT-SIZE: 13px; MARGIN-BOTTOM: 5px; COLOR: #696969
+}
+.UIComposer_Content {
+	PADDING-RIGHT: 7px; PADDING-LEFT: 7px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.UIComposer_InputArea {
+	BORDER-RIGHT: #bbb 1px solid; BORDER-TOP: #aeaeae 1px solid; BACKGROUND: #fff; BORDER-LEFT: #bbb 1px solid; BORDER-BOTTOM: #bbb 1px solid
+}
+.UIComposer_InputShadow {
+	PADDING-RIGHT: 5px; BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 3px; PADDING-TOP: 2px
+}
+.UIComposer_InputShadow .DOMControl_placeholder {
+	LINE-HEIGHT: 21px
+}
+.UIComposer .UIComposer_TextArea {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; PADDING-BOTTOM: 0px; MARGIN: 0px; VERTICAL-ALIGN: bottom; OVERFLOW: hidden; WIDTH: 100%; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; HEIGHT: 21px; BORDER-BOTTOM-STYLE: none; resize: none; outline: none
+}
+.UIComposer_AttachmentTitle {
+	PADDING-LEFT: 22px; FONT-WEIGHT: bold; BACKGROUND: no-repeat left center; COLOR: #666
+}
+.UIComposer_AttachmentArea {
+	BORDER-RIGHT: #bbb 1px solid; BORDER-TOP: #aeaeae 1px solid; MARGIN-TOP: 6px; DISPLAY: none; BACKGROUND: #fff; BORDER-LEFT: #bbb 1px solid; BORDER-BOTTOM: #bbb 1px solid
+}
+.UIComposer_AttachmentArea .app_content {
+	OVERFLOW-Y: hidden; OVERFLOW: auto
+}
+.UIComposer_AttachmentArea_Shadow {
+	PADDING-RIGHT: 4px; BORDER-TOP: #e8e8e8 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; OVERFLOW: hidden; PADDING-TOP: 3px
+}
+.UIComposer_AttachmentArea_Header {
+	PADDING-BOTTOM: 4px; OVERFLOW: hidden; LINE-HEIGHT: 18px; BORDER-BOTTOM: #dfdfdf 1px solid; ZOOM: 1
+}
+.UIComposer_AttachmentArea_CloseButton {
+	BACKGROUND: no-repeat -150px -83px; FLOAT: right; WIDTH: 18px; HEIGHT: 18px
+}
+.UIComposer_AttachmentArea_CloseButton:hover {
+	BACKGROUND-POSITION: -168px -83px
+}
+.UIComposer_AttachmentArea_Cache {
+	OVERFLOW: hidden; PADDING-TOP: 4px
+}
+.UIComposer_AttachmentArea_Loader {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 6px; PADDING-TOP: 6px; TEXT-ALIGN: center
+}
+.UIComposer_Attachment_Cached {
+	DISPLAY: none; ZOOM: 1
+}
+.UIComposer_ButtonArea {
+	MARGIN-BOTTOM: 0px; PADDING-TOP: 7px; POSITION: relative; HEIGHT: 24px
+}
+.UIComposer_ButtonArea UL {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+.UIComposer_Buttons {
+	RIGHT: 0px; POSITION: absolute
+}
+.UIComposer_Buttons LI {
+	FLOAT: right
+}
+.UIComposer_SubmitButton {
+	MARGIN-LEFT: 5px
+}
+.UIComposer_SubmitButton A:unknown {
+	BORDER-BOTTOM-WIDTH: 0px; outline: 1px solid #3b5998
+}
+.UIComposer_Attachments LI {
+	FLOAT: left
+}
+.UIComposer_AttachmentPrompt {
+	PADDING-RIGHT: 4px; FONT-WEIGHT: bold; COLOR: #999; LINE-HEIGHT: 24px
+}
+.UIComposer_ButtonArea .UIButton_Text {
+	FONT-SIZE: 13px
+}
+.UIComposer_Buttons .UIActionMenu .UITooltip_Wrap {
+	BACKGROUND-POSITION: right bottom; BOTTOM: 25px
+}
+.UIComposer_ButtonArea .UIActionMenu_Wrap {
+	HEIGHT: 23px
+}
+.UIComposer_ButtonArea .UIActionMenu_Menu {
+	TOP: 24px
+}
+.UIComposer_More .UIActionMenu_Wrap {
+	PADDING-LEFT: 5px
+}
+.UIComposer_More .UITooltip_Wrap {
+	LEFT: 2px; BOTTOM: 25px
+}
+.UIComposer_More .UIActionMenu_Menu {
+	BORDER-RIGHT: #444 1px solid; PADDING-RIGHT: 0px; BORDER-TOP: #444 1px solid; DISPLAY: block; PADDING-LEFT: 0px; BACKGROUND: #eee; PADDING-BOTTOM: 3px; BORDER-LEFT: #444 1px solid; WIDTH: 150px; PADDING-TOP: 3px; BORDER-BOTTOM: #444 1px solid
+}
+.UIComposer_MoreItem {
+	PADDING-RIGHT: 10px; DISPLAY: block; PADDING-LEFT: 28px; PADDING-BOTTOM: 0px; OVERFLOW: hidden; CURSOR: pointer; COLOR: #111; LINE-HEIGHT: 22px; PADDING-TOP: 0px; POSITION: relative; HEIGHT: 22px
+}
+.UIComposer_MoreItem:hover {
+	COLOR: #fff; BACKGROUND-COLOR: #333
+}
+.UIComposer_MoreIcon {
+	DISPLAY: block; BACKGROUND: no-repeat -16px center; LEFT: 0px; MARGIN: 3px 0px 0px 6px; WIDTH: 16px; POSITION: absolute; TOP: 0px; HEIGHT: 16px
+}
+.UIComposer_MoreItem:hover .UIComposer_MoreIcon {
+	BACKGROUND-POSITION: 0px center
+}
+.UIComposer_AttachmentArea_CloseButton {
+	BACKGROUND-IMAGE: url(/rsrc.php/z1LLD/hash/2fsstbex.gif)
+}
+.UIComposer_STATE_PIC_OUTSIDE .UIComposer_UIRoundedBox {
+	PADDING-LEFT: 60px
+}
+.UIComposer_STATE_PIC_INSIDE .UIComposer_Pic {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.UIComposer_STATE_PIC_INSIDE .UIComposer_InputArea {
+	PADDING-LEFT: 60px
+}
+.UIComposer_STATE_INPUT_DISABLED .UIComposer_InputArea {
+	BACKGROUND-COLOR: #ddd
+}
+.UIComposer_STATE_INPUT_DISABLED .UIComposer_InputShadow {
+	BACKGROUND-COLOR: #ddd
+}
+.UIComposer_STATE_INPUT_DISABLED .UIComposer_TextArea {
+	BACKGROUND-COLOR: #ddd
+}
+.UIComposer_STATE_INPUT_FOCUSED .Mentions_Input {
+	MIN-HEIGHT: 36px
+}
+.ie6 .UIComposer_STATE_INPUT_FOCUSED .Mentions_Input {
+	OVERFLOW: visible; HEIGHT: 36px
+}
+.UIComposer_STATE_INPUT_FOCUSED .UIComposer_TextArea {
+	HEIGHT: 36px
+}
+.UIComposer_STATE_ATTACHMENT_AREA .UIComposer_AttachmentList {
+	DISPLAY: none
+}
+.UIComposer_STATE_ATTACHMENT_LOADED .UIComposer_AttachmentArea_Loader {
+	DISPLAY: none
+}
+.UIComposer_STATE_ATTACHMENT_AREA .UIComposer_AttachmentArea {
+	DISPLAY: block
+}
+.UIComposer_STATE_ATTACHMENT_LOADED .UIComposer_Attachment_Visible {
+	DISPLAY: block
+}
+.UIComposer_STATE_LOC_ACTIVATED .UIComposer_LocationButton .UIActionButton {
+	BACKGROUND-POSITION: 3px -310px
+}
+.Mentions_Input {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 13px; MIN-HEIGHT: 20px; OVERFLOW-X: hidden; PADDING-BOTTOM: 0px; MARGIN: 0px; OVERFLOW: auto; WIDTH: 100%; CURSOR: text; BORDER-TOP-STYLE: none; PADDING-TOP: 0px; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none; outline: none; max-height: 200px; webkit-user-modify: read-write-plaintext-only
+}
+.Mentions_Input A {
+	CURSOR: default
+}
+.Mentions_Input A SPAN {
+	outline: none
+}
+.Mentions_Input A:hover {
+	TEXT-DECORATION: none
+}
+.UIComposer_PrivacyWidgetConfirmationBody {
+	OVERFLOW: hidden
+}
+.UIComposer_PrivacyWidgetConfirmationBody P {
+	MARGIN: 0px 0px 10px
+}
+.UIComposer_PrivacyWidgetConfirmationImage {
+	FLOAT: right; MARGIN-LEFT: 5px
+}
+.UIComposer_PrivacyCallout {
+	MARGIN-TOP: -5px; Z-INDEX: 100; RIGHT: 38px; WIDTH: 180px; POSITION: absolute; BACKGROUND-COLOR: transparent
+}
+.UIComposer_PrivacyCallout_Title {
+	BORDER-RIGHT: #467c2c 1px solid; BORDER-TOP: #467c2c 1px solid; BORDER-LEFT: #467c2c 1px solid; BORDER-BOTTOM: #467c2c 1px solid
+}
+.UIComposer_PrivacyCallout_Text {
+	BORDER-RIGHT: #467c2c 1px solid; BORDER-TOP: #467c2c 1px solid; BORDER-LEFT: #467c2c 1px solid; BORDER-BOTTOM: #467c2c 1px solid
+}
+.UIComposer_PrivacyCallout_Arrow {
+	BACKGROUND: url(/rsrc.php/z1L5Y/hash/972fw3ak.gif) no-repeat right top; MARGIN-RIGHT: 40px; POSITION: relative; TOP: 1px; HEIGHT: 7px
+}
+.UIComposer_PrivacyCallout_Arrow SPAN {
+	DISPLAY: none
+}
+.UIComposer_PrivacyCallout_Title {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-SIZE: 11px; PADDING-BOTTOM: 3px; MARGIN: 0px; COLOR: #fff; PADDING-TOP: 3px; BORDER-BOTTOM: medium none; BACKGROUND-COLOR: #67a54b
+}
+.UIComposer_PrivacyCallout_Text {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 6px; MARGIN: 0px; COLOR: #666; PADDING-TOP: 6px; BACKGROUND-COLOR: #fff
+}
+.UIComposer_PrivacyCallout_Text A {
+	DISPLAY: block
+}
+.UIComposer_PrivacyCallout_CloseLink {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FLOAT: right; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.UIComposer_PrivacyCallout_CloseLink A {
+	COLOR: #fff
+}
+.UIComposer_PrivacyButton .UITooltip_Wrap {
+	RIGHT: 16px; MARGIN-LEFT: 4px; BOTTOM: 23px
+}
+.UIComposer_LocationField {
+	PADDING-RIGHT: 0px; BORDER-TOP: #dfdfdf 1px solid; PADDING-LEFT: 18px; BACKGROUND: url(/rsrc.php/zD0UO/hash/4hvlr9i2.gif) no-repeat -1px -286px; PADDING-BOTTOM: 2px; COLOR: #666; PADDING-TOP: 4px
+}
+.UIComposer_LocationButton .UIActionButton {
+	BACKGROUND-POSITION: 3px -286px; BACKGROUND-IMAGE: url(/rsrc.php/zD0UO/hash/4hvlr9i2.gif); BACKGROUND-REPEAT: no-repeat
+}
+.UIComposer_LocationButton .UIActionButton:active {
+	BACKGROUND-IMAGE: url(/rsrc.php/zD0UO/hash/4hvlr9i2.gif)
+}
+.UIComposer_LocationButton .UIButton_Text {
+	WIDTH: 20px
+}
+.UIComposer_LocationButton .UITooltip_Wrap {
+	BACKGROUND-POSITION: right bottom; RIGHT: 3px
+}
+DIV.pop_dialog .UIComposer {
+	MARGIN-BOTTOM: 0px
+}
+DIV.pop_dialog .UIComposer .UIComposer_ButtonArea {
+	DISPLAY: none
+}
+.ie6 .UIStory {
+	ZOOM: 1
+}
+.ie7 .UIStory {
+	ZOOM: 1
+}
+.UIStory_Hide {
+	MARGIN-TOP: -2px; DISPLAY: block; FLOAT: right; VISIBILITY: hidden; HEIGHT: 20px
+}
+.UIStory_Hide .UIActionButton_Text {
+	FONT-WEIGHT: normal
+}
+.UIStory_hover .UIStory_Hide {
+	VISIBILITY: visible
+}
+.UIStory:hover .UIStory_Hide {
+	VISIBILITY: visible
+}
+.UIIntentionalStory_Profile_First .UIStory_Hide {
+	MARGIN-TOP: 1px
+}
+.UIStory_Hide_Placeholder {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; LINE-HEIGHT: 22px; PADDING-TOP: 0px
+}
+.UIRecentActivity_Stream {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 14px; PADDING-TOP: 4px
+}
+.UIStream_Border {
+	BORDER-TOP: #eee 1px solid; PADDING-TOP: 12px
+}
+A.UIStream_Chunk_Expand {
+	PADDING-RIGHT: 2px; DISPLAY: block; PADDING-LEFT: 22px; PADDING-BOTTOM: 0px; MARGIN: 2px 0px 4px; PADDING-TOP: 0px
+}
+.profile .UIRecentActivity_Stream {
+	PADDING-LEFT: 60px
+}
+.UIRecentActivity_Stream .UIRecentActivity_Header {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 9px; PADDING-BOTTOM: 5px; COLOR: #aaa; PADDING-TOP: 2px
+}
+.UIRecentActivity_Stream .UIStory_Hide {
+	MARGIN-TOP: -4px; FLOAT: right
+}
+.UITaggedStory_Info {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.UITaggedStory_Tagger {
+	COLOR: #999
+}
+.UIRecentActivityStory {
+	CLEAR: both; DISPLAY: block; BACKGROUND: #fff; PADDING-TOP: 4px
+}
+.UIRecentActivityStory_First {
+	PADDING-TOP: 0px
+}
+.UIRecentActivityStory .UIRecentActivity_Icon {
+	WIDTH: 16px; POSITION: absolute
+}
+.UIRecentActivityStory .UIRecentActivity_Time {
+	FONT-SIZE: 9px; MARGIN-LEFT: 4px; COLOR: #777
+}
+.UIRecentActivityStory .stream_participants_not_expanded .stream_participants_long {
+	DISPLAY: none
+}
+.UIRecentActivityStory .stream_participants_expanded .stream_participants_short {
+	DISPLAY: none
+}
+.UIRecentActivity_Body {
+	PADDING-LEFT: 21px; MIN-HEIGHT: 18px
+}
+.ie6 .UIRecentActivity_Body {
+	HEIGHT: 18px
+}
+.home .UIRecentActivity_Stream {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 6px; PADDING-LEFT: 0px; PADDING-BOTTOM: 14px; PADDING-TOP: 8px
+}
+.profile .UIRecentActivityStream_Interspersed {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 58px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px
+}
+.home .UIRecentActivity_Stream .UIRecentActivity_Header {
+	PADDING-LEFT: 34px
+}
+.home #home_stream .UIRecentActivityStory {
+	PADDING-RIGHT: 0px; BORDER-TOP: #eee 1px solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 9px; MARGIN: 0px 0px 0px 58px; PADDING-TOP: 9px
+}
+.home #home_stream .UIStream .UIStory_First {
+	BORDER-TOP-STYLE: none; PADDING-TOP: 0px
+}
+.home #home_stream .UIRecentActivity_Icon {
+	MARGIN-LEFT: -25px
+}
+.home #home_stream .UIRecentActivity_Body {
+	PADDING-LEFT: 2px
+}
+.home #home_stream .UIRecentActivity_Body {
+	PADDING-LEFT: 2px; FONT-SIZE: 13px; COLOR: #808080
+}
+.UIRecentActivityStory .UIStoryAttachment_MediaSingle {
+	PADDING-RIGHT: 10px
+}
+.UIRecentActivityStory .UIStoryAttachment {
+	FONT-SIZE: 11px
+}
+.UIRecentActivityStory_Names {
+	FONT-WEIGHT: bold
+}
+.UIHotStream .UIRecentActivity_Stream {
+	PADDING-RIGHT: 0px; MARGIN-TOP: 6px; PADDING-LEFT: 42px; PADDING-BOTTOM: 0px; PADDING-TOP: 8px
+}
+.UIRecentActivity_Icon {
+	PADDING-RIGHT: 9px
+}
+#home_pills {
+	FLOAT: right; PADDING-BOTTOM: 10px
+}
+.UIIntentionalStory {
+	PADDING-RIGHT: 0px; BORDER-TOP: #eee 1px solid; PADDING-LEFT: 60px; MIN-HEIGHT: 50px; MARGIN-BOTTOM: 7px; PADDING-BOTTOM: 0px; PADDING-TOP: 7px; POSITION: relative; BACKGROUND-COLOR: #fff
+}
+.ie6 .UIIntentionalStory {
+	OVERFLOW: visible; HEIGHT: 50px
+}
+.UIStory_First {
+	MARGIN-TOP: 0px; BORDER-TOP-STYLE: none
+}
+.story_preview_nile .UIIntentionalStory {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.UIIntentionalStory_Location {
+	FONT-SIZE: 11px; COLOR: #777
+}
+.UIIntentionalStory_Time {
+	FONT-SIZE: 11px; COLOR: #777
+}
+.UIIntentionalStory_Time A {
+	FONT-SIZE: 11px; COLOR: #777
+}
+.UIIntentionalStory_BottomAttribution {
+	COLOR: #777
+}
+.UIIntentionalStory_Pic {
+	LEFT: 0px; POSITION: absolute
+}
+.UIIntentionalStory_RoundedCorners {
+	POSITION: absolute
+}
+.UIIntentionalStory_Image {
+	DISPLAY: block; VERTICAL-ALIGN: middle; POSITION: absolute
+}
+.UIIntentionalStory_Message {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; OVERFLOW: hidden; COLOR: #333
+}
+.UIIntentionalStory .location {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; OVERFLOW: hidden; COLOR: #333
+}
+.UIFeedFormStory_Prompt {
+	PADDING-RIGHT: 25px; FONT-SIZE: 13px; COLOR: #777
+}
+.UIFeedFormStory_Prompt .UIFeedFormStory_Lead {
+	FONT-WEIGHT: bold
+}
+.UIFeedFormStory_Prompt TEXTAREA {
+	MARGIN-TOP: 7px; FONT-WEIGHT: normal; FONT-SIZE: 13px; OVERFLOW: hidden; WIDTH: 100%
+}
+.UIIntentionalStory_Arrow {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.UIIntentionalStory_Names {
+	FONT-WEIGHT: bold; COLOR: #444
+}
+.UIIntentionalStory_Attribution {
+	COLOR: #808080
+}
+.UIIntentionalStory .UIStoryAttachment_MediaSingle {
+	PADDING-RIGHT: 10px
+}
+.UIIntentionalStory_MediaSingle .UIMediaItem {
+	FLOAT: none
+}
+.UIIntentionalStory_MediaExtra {
+	PADDING-LEFT: 8px
+}
+.UIIntentionalStory .UIMediaItem_UnknownWidth {
+	max-width: 130px; max-height: 200px
+}
+.ie6 .UIIntentionalStory .UIMediaItem_UnknownWidth {
+	WIDTH: 130px
+}
+.UIIntentionalStory_Info {
+	CLEAR: left; MARGIN-TOP: 1px
+}
+.UIIntentionalStory_AttachmentInfo {
+	PADDING-TOP: 5px
+}
+.UIIntentionalStory_Icon {
+	POSITION: absolute
+}
+.UIIntentionalStory_Mobile {
+	POSITION: absolute
+}
+IMG.UIIntentionalStory_Icon {
+	MARGIN: 2px
+}
+.UIIntentionalStory_Mobile {
+	PADDING-TOP: 3px
+}
+.UIIntentionalStory_InfoText {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MIN-HEIGHT: 16px; PADDING-BOTTOM: 0px; COLOR: #777; PADDING-TOP: 2px
+}
+.ie6 .UIIntentionalStory_InfoText {
+	HEIGHT: 16px
+}
+.UIIntentionalStory_InfoTextIndented {
+	PADDING-LEFT: 22px
+}
+.unfollow_message .unfollow_undo {
+	MARGIN-TOP: 0.6em; FONT-WEIGHT: bold; FLOAT: right; MARGIN-RIGHT: 10px
+}
+.unfollow_message {
+	PADDING-RIGHT: 0px; BORDER-TOP: #eee 1px solid; PADDING-LEFT: 0px; BACKGROUND: #fff9d7; PADDING-BOTTOM: 10px; WIDTH: 100%; PADDING-TOP: 10px
+}
+.unfollow_message P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+.UIIntentionalStory_hover {
+	BACKGROUND: #eee
+}
+.UIIntentionalStory .swfvideo .extra {
+	PADDING-RIGHT: 0px; PADDING-BOTTOM: 0px
+}
+.UIIntentionalStory .UIMediaItem_video {
+	PADDING-BOTTOM: 0px
+}
+.UIIntentionalStory_Privacy A {
+	PADDING-RIGHT: 5px; DISPLAY: inline-block; PADDING-LEFT: 5px; BACKGROUND: url(/rsrc.php/zCWQK/hash/62wnegzq.gif) no-repeat right center; PADDING-BOTTOM: 0px; LINE-HEIGHT: 12px; PADDING-TOP: 0px
+}
+.UIIntentionalStory_Privacy .UITooltip .UITooltip_Wrap {
+	LEFT: -1px; BOTTOM: 14px
+}
+.UIIntentionalStory_CollapsedStories {
+	BORDER-TOP: #eee 1px solid; MARGIN-TOP: 7px; DISPLAY: block; FONT-WEIGHT: bold; FONT-SIZE: 9px; MARGIN-BOTTOM: 7px; PADDING-TOP: 7px; POSITION: relative; BACKGROUND-COLOR: #fff
+}
+.UIIntentionalStory_CollapsedStoriesLoading {
+	BACKGROUND: url(/rsrc.php/z57QP/hash/6nr0un50.gif) #fff no-repeat right 6px
+}
+.UIIntentionalStream_Error {
+	DISPLAY: none
+}
+.UIIntentionalStream_HiddenInfo {
+	FLOAT: right
+}
+.UIIntentionalStream_Pager {
+	PADDING-TOP: 8px
+}
+.UIIntentionalStream_PagerInner {
+	MARGIN: 5px 10px; OVERFLOW: hidden
+}
+.ie6 .UIIntentionalStream_PagerInner {
+	ZOOM: 1
+}
+.UIIntentionalStream_Pager .PagerArrow {
+	DISPLAY: inline-block; FLOAT: left; MARGIN: 5px 0px 0px 5px
+}
+.UIIntentionalStream_Pager .PagerMoreLink {
+	FLOAT: left
+}
+.UIIntentionalStream_Pager_Loader {
+	DISPLAY: none; FLOAT: left; MARGIN: 2px 0px 0px 8px
+}
+.UIIntentionalStream_PagerLoading .UIIntentionalStream_Pager_Loader {
+	DISPLAY: inline
+}
+.UIIntentionalStream_AutoUpdate {
+	MARGIN: 5px
+}
+.UIIntentionalStream_AutoUpdateMessage {
+	FLOAT: right
+}
+.UIIntentionalStream_AutoUpdateControl {
+	FLOAT: right
+}
+.UIIntentionalStream_Top .UILinkNav {
+	PADDING-RIGHT: 7px; FLOAT: right
+}
+.UIIntentionalStream .UIIntentionalStream_ShowNewStories {
+	DISPLAY: none; PADDING-BOTTOM: 8px
+}
+.UIIntentionalStream_ShowNewStories_Msg {
+	PADDING-RIGHT: 0px; DISPLAY: block; PADDING-LEFT: 21px; FONT-WEIGHT: bold; FONT-SIZE: 9px; BACKGROUND: url(/rsrc.php/z4PW3/hash/e9iwu356.gif) no-repeat -16px 2px; PADDING-BOTTOM: 11px; MARGIN: 0px 0px 0px 60px; OVERFLOW: hidden; PADDING-TOP: 4px; BORDER-BOTTOM: #eee 1px solid
+}
+.UIIntentionalStream .StreamHeader {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 4px; PADDING-TOP: 0px; BORDER-BOTTOM: #ccc 1px solid
+}
+.UIIntentionalStream .StreamHeader H2 {
+	DISPLAY: inline; FONT-SIZE: 14px; COLOR: #333
+}
+.UIIntentionalStream .StreamHeader .StreamHeader_Link {
+	PADDING-TOP: 2px
+}
+.UIMediaItem {
+	
+}
+.UIMediaItem_ManyItems {
+	FLOAT: left
+}
+.UIMediaItem IMG {
+	DISPLAY: block; VERTICAL-ALIGN: middle
+}
+.UIMediaItem_Wrapper {
+	OVERFLOW: hidden
+}
+.UIMediaItem_Photo .UIMediaItem_Wrapper {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 3px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; BORDER-LEFT: #ccc 1px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #ccc 1px solid
+}
+.UIMediaItem_Photo .UIMediaItem_PhotoBorder {
+	BORDER-RIGHT: #ccc 1px solid; BORDER-TOP: #ccc 1px solid; BORDER-LEFT: #ccc 1px solid; BORDER-BOTTOM: #ccc 1px solid
+}
+.UIMediaItem_Photo A:hover .UIMediaItem_Wrapper {
+	BORDER-RIGHT: #3b5998 1px solid; BORDER-TOP: #3b5998 1px solid; BORDER-LEFT: #3b5998 1px solid; BORDER-BOTTOM: #3b5998 1px solid
+}
+.UIMediaItem_Photo A:hover .UIMediaItem_PhotoBorder {
+	BORDER-RIGHT: #3b5998 1px solid; BORDER-TOP: #3b5998 1px solid; BORDER-LEFT: #3b5998 1px solid; BORDER-BOTTOM: #3b5998 1px solid
+}
+.UIMediaItem_Photo .UIMediaItem_PhotoFrame {
+	BORDER-RIGHT: white 3px solid; BORDER-TOP: white 3px solid; BORDER-LEFT: white 3px solid; BORDER-BOTTOM: white 3px solid
+}
+.UIStoryAttachment {
+	PADDING-RIGHT: 10px; MARGIN-TOP: 6px; OVERFLOW: hidden
+}
+.UIStoryAttachment_Tab {
+	POSITION: absolute
+}
+.UIStoryAttachment_Icon {
+	BACKGROUND: #fff; PADDING-BOTTOM: 2px
+}
+.UIStoryAttachment_BlockQuote {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 8px; PADDING-BOTTOM: 3px; BORDER-LEFT: #ccc 2px solid; PADDING-TOP: 0px
+}
+.ie6 .UIStoryAttachment_BlockQuote {
+	ZOOM: 1
+}
+.UIStoryAttachment_BlockQuote .UIStoryAttachment_Title {
+	MARGIN-TOP: 0px
+}
+.UIStoryAttachment_Media {
+	FLOAT: left; OVERFLOW: hidden
+}
+.UIStoryAttachment_MediaWide {
+	FLOAT: none
+}
+.UIStoryAttachment_Title {
+	FONT-WEIGHT: bold; PADDING-TOP: 3px
+}
+.UIStory_Open .UIStoryAttachment_Title {
+	CLEAR: left
+}
+.UIStoryAttachment_TitleAbove {
+	MARGIN: 0px
+}
+.UIStoryAttachment_TitleAboveMedia {
+	MARGIN: 0px 0px 5px
+}
+.UIStoryAttachment_TitleBelow {
+	CLEAR: left; PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 5px
+}
+.ie6 .UIStoryAttachment_TitleBelow {
+	PADDING-TOP: 2px
+}
+.UIStoryAttachment_Title_Byline {
+	FONT-WEIGHT: normal; COLOR: #777
+}
+.UIStoryAttachment_Title_Byline A {
+	FONT-WEIGHT: bold
+}
+.UIStoryAttachment_Caption {
+	COLOR: #808080; PADDING-TOP: 3px
+}
+.UIStoryAttachment_Copy {
+	COLOR: #808080; PADDING-TOP: 3px
+}
+.UIStoryAttachment_Copy .CopyTitle {
+	FONT-WEIGHT: bold
+}
+.UIStoryAttachment_Copy TABLE {
+	
+}
+.UIStoryAttachment_Copy TABLE TD {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 2px
+}
+.UIStoryAttachment_Table {
+	PADDING-TOP: 2px
+}
+.UIStoryAttachment_Tags {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 3px; COLOR: #808080; PADDING-TOP: 0px
+}
+.UIStoryAttachment_Label {
+	COLOR: #999
+}
+.UIStoryAttachment_Tags .UIStoryAttachment_Label {
+	PADDING-LEFT: 16px; BACKGROUND: url(/rsrc.php/zE5GI/hash/7pjbl6pb.png) no-repeat left -395px
+}
+.UIStoryAttachment_Value {
+	PADDING-LEFT: 4px
+}
+.UIActionMenu {
+	DISPLAY: inline-block; FONT-SIZE: 11px; CURSOR: pointer; BORDER-BOTTOM: #f2f2f2 1px solid; POSITION: relative
+}
+.ie6 .UIActionMenu {
+	DISPLAY: inline
+}
+.UIActionMenu A:hover {
+	TEXT-DECORATION: none
+}
+.UIActionMenu_Wrap {
+	BORDER-RIGHT: #888 1px solid; PADDING-RIGHT: 18px; BACKGROUND-POSITION: left top; BORDER-TOP: #888 1px solid; DISPLAY: block; PADDING-LEFT: 4px; PADDING-BOTTOM: 0px; BORDER-LEFT: #888 1px solid; CURSOR: pointer; PADDING-TOP: 0px; BORDER-BOTTOM: #888 1px solid; ZOOM: 1; POSITION: relative; HEIGHT: 21px
+}
+.UIActionMenu_Wrap INPUT {
+	RIGHT: -5px; BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 0px; CURSOR: pointer; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; POSITION: absolute; TOP: 0px; HEIGHT: 0px; BORDER-BOTTOM-STYLE: none; outline: none
+}
+.ie6 .UIActionMenu_Wrap {
+	DISPLAY: inline-block
+}
+.ie6 .UIActionMenu_Text {
+	DISPLAY: inline-block
+}
+.UIActionMenu_Chevron {
+	LINE-HEIGHT: 21px
+}
+.UIActionMenu_Text {
+	LINE-HEIGHT: 21px
+}
+.UIActionMenu_Icon {
+	LINE-HEIGHT: 21px
+}
+.UIActionMenu_Chevron {
+	RIGHT: 0px; BACKGROUND: no-repeat left -145px; WIDTH: 20px; POSITION: absolute; TOP: 0px; HEIGHT: 21px
+}
+.UIActionMenu_Text {
+	FLOAT: left; MARGIN: 0px 2px; COLOR: #333
+}
+.UIActionMenu_Icon {
+	FLOAT: left; HEIGHT: 21px
+}
+.UIActionMenu_Lock {
+	BACKGROUND-POSITION: 0px -216px; WIDTH: 16px
+}
+.UIActionMenu_Menu {
+	BORDER-RIGHT: #444 1px solid; BORDER-TOP: #444 1px solid; LEFT: 0px; VISIBILITY: hidden; BORDER-LEFT: #444 1px solid; BORDER-BOTTOM: #444 1px solid; POSITION: absolute; TOP: 22px
+}
+.UIActionMenu_AlignRight .UIActionMenu_Menu {
+	RIGHT: 0px; LEFT: auto
+}
+.UIActionMenu_Wrap {
+	BACKGROUND-IMAGE: url(/rsrc.php/zD0UO/hash/4hvlr9i2.gif)
+}
+.UIActionMenu_Icon {
+	BACKGROUND-IMAGE: url(/rsrc.php/zD0UO/hash/4hvlr9i2.gif)
+}
+.UIActionMenu_Chevron {
+	BACKGROUND-IMAGE: url(/rsrc.php/zD0UO/hash/4hvlr9i2.gif)
+}
+.UIActionMenu_SuppressButton .UIActionMenu_Wrap:hover {
+	BACKGROUND-IMAGE: url(/rsrc.php/zD0UO/hash/4hvlr9i2.gif)
+}
+.ie6 .UIActionMenu_SuppressButton .UIActionMenu_Wrap {
+	BACKGROUND-IMAGE: url(/rsrc.php/zD0UO/hash/4hvlr9i2.gif)
+}
+.UIActionMenu_SuppressButton {
+	BORDER-LEFT-COLOR: transparent; BORDER-BOTTOM-COLOR: transparent; BORDER-TOP-COLOR: transparent; BORDER-RIGHT-COLOR: transparent
+}
+.ie6 .UIActionMenu_SuppressButton {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.UIActionMenu_SuppressButton:hover {
+	BORDER-BOTTOM: #f2f2f2 1px solid
+}
+.UIActionMenu_SuppressButton .UIActionMenu_Wrap {
+	BORDER-LEFT-COLOR: transparent; BACKGROUND-IMAGE: none; BORDER-BOTTOM-COLOR: transparent; BORDER-TOP-COLOR: transparent; BORDER-RIGHT-COLOR: transparent
+}
+.ie6 .UIActionMenu_SuppressButton .UIActionMenu_Wrap {
+	BORDER-LEFT-COLOR: #888; BORDER-BOTTOM-COLOR: #888; BORDER-TOP-COLOR: #888; BORDER-RIGHT-COLOR: #888
+}
+.UIActionMenu_SuppressButton .UIActionMenu_Wrap:hover {
+	BORDER-LEFT-COLOR: #888; BORDER-BOTTOM-COLOR: #888; BORDER-TOP-COLOR: #888; BORDER-RIGHT-COLOR: #888
+}
+.UIActionMenu_Active .UIActionMenu_SuppressButton .UIActionMenu_Wrap {
+	BORDER-LEFT-COLOR: #444; BORDER-BOTTOM-COLOR: #444; BORDER-TOP-COLOR: #444; BORDER-RIGHT-COLOR: #444
+}
+.UIActionMenu_SuppressText .UIActionMenu_Text {
+	DISPLAY: none
+}
+.UIActionMenu_Blue .UIActionMenu_Text {
+	COLOR: #3b5998
+}
+.UIActionMenu_Blue .UIActionMenu_Lock {
+	BACKGROUND-POSITION: left -264px
+}
+.UIActionMenu_Blue .UIActionMenu_Chevron {
+	BACKGROUND-POSITION: left -193px
+}
+.UIActionMenu_Active .UIActionMenu_Wrap {
+	BORDER-LEFT-COLOR: #444! important; BACKGROUND: #444; BORDER-BOTTOM-COLOR: #444! important; BORDER-TOP-COLOR: #444! important; BORDER-RIGHT-COLOR: #444! important
+}
+.UIActionMenu_Active .UIActionMenu_Text {
+	COLOR: #fff
+}
+.UIActionMenu_Active .UIActionMenu_Lock {
+	BACKGROUND-POSITION: left -240px
+}
+.UIActionMenu_Active .UIActionMenu_Chevron {
+	BACKGROUND-POSITION: left -169px
+}
+.UIActionMenu_Active {
+	Z-INDEX: 98; VISIBILITY: visible
+}
+.UIActionMenu_Active .UIActionMenu_Menu {
+	Z-INDEX: 98; VISIBILITY: visible
+}
+.UIActionMenu_Active .UIActionMenu_Wrap:hover .UITooltip_Wrap {
+	VISIBILITY: hidden
+}
+.UIActionMenu_Active .UIActionMenu_Wrap:hover .UITooltip_Text {
+	VISIBILITY: hidden
+}
+#profile_settings .UIActionMenu {
+	FLOAT: left
+}
+.FriendAddingTool_Menu .UIActionMenu {
+	FLOAT: left
+}
+.UIObjectListing_ActionContainer .UIActionMenu {
+	FLOAT: right
+}
+.ff2 .UIObjectListing_ActionContainer .UIActionMenu {
+	FLOAT: none
+}
+#bootloader_css_cvglw45sli8k04cw_pkg_css {
+	HEIGHT: 42px
+}

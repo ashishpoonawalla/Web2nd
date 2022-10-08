@@ -1,0 +1,52 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Main.master.cs" Inherits="web2nd_Admin1_Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="../../CSS/eh2vbogl.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table border="0" cellspacing="2" style="position: static">
+            <tr>
+                <td style="width: 100px">
+                    <asp:Label ID="Label1" runat="server" BackColor="Gray" Font-Bold="True" ForeColor="White"
+                        Style="position: static" Text="Control" Width="953px"></asp:Label></td>
+            </tr>
+            <tr>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100px">
+        <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+        </asp:contentplaceholder>
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100px">
+                </td>
+            </tr>
+            <tr>
+                <td style="width: 100px">
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <br />
+        &nbsp;</div>
+    </form>
+</body>
+</html>
